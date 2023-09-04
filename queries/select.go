@@ -7,7 +7,7 @@ import (
 )
 
 func SelectWord(db *sql.DB, vocab string) ([]utils.WordList, error) {
-	selectWord := fmt.Sprintf(`SELECT * FROM wordlists WHERE vocab = '%s' and id = 1;`, vocab)
+	selectWord := fmt.Sprintf(`SELECT * FROM wordlists WHERE vocab = '%s' ;`, vocab)
 	rows, err := db.Query(selectWord)
 	if err != nil {
 		fmt.Println(err)

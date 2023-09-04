@@ -17,12 +17,12 @@ func CreateDatabase(db *sql.DB) {
 func CreateTable(db *sql.DB) {
 	createTable := `CREATE TABLE wordlists (
 		id SERIAL PRIMARY KEY,
-		vocab VARCHAR(20),
-		hiragana VARCHAR(20),
-		type VARCHAR(20),
-		meaning VARCHAR(50),
+		vocab VARCHAR(50),
+		hiragana VARCHAR(50),
+		type VARCHAR(50),
+		meaning VARCHAR(200),
 		jlpt VARCHAR(2) );		
-	)`
+	`
 	_, err := db.Exec(createTable)
 	if err != nil {
 		fmt.Println(err)
