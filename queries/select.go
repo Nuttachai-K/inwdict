@@ -1,12 +1,14 @@
 package queries
 
 import (
-	"database/sql"
 	"fmt"
+	"inwdic/database"
 	"inwdic/utils"
 )
 
-func SelectWord(db *sql.DB, vocab string) ([]utils.WordList, error) {
+func SelectWord(vocab string) ([]utils.WordList, error) {
+	db := database.ConnectDatabase()
+	defer db.Close()
 	selectWord := fmt.Sprintf(`SELECT * FROM wordlists WHERE vocab = '%s' ;`, vocab)
 	rows, err := db.Query(selectWord)
 	if err != nil {
