@@ -17,11 +17,11 @@ const (
 
 func ConnectDatabase() *sql.DB {
 	psqlconn := fmt.Sprintf("host=%s port=%d user=%s password=%s dbname=%s sslmode=disable", host, port, user, password, dbname)
-	db, err := sql.Open("postgres", psqlconn)
+	Db, err := sql.Open("postgres", psqlconn)
 	if err != nil {
 		fmt.Println(err)
 	}
 
 	fmt.Println("Connected!")
-	return db
+	return Db
 }
