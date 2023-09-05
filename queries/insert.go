@@ -1,22 +1,23 @@
 package queries
 
 import (
-	"database/sql"
 	"encoding/json"
 	"fmt"
+	"inwdic/database"
 	"inwdic/utils"
 	"io"
 	"os"
 )
 
-func InsertJson(db *sql.DB) {
-
-	jsonFile, err := os.Open("json/jpn101.json")
+func InsertJson(jpn string) error {
+	db := database.ConnectDatabase()
+	defer db.Close()
+	jsonFile, err := os.Open(fmt.Sprintf("json/%s.json", jpn))
 
 	if err != nil {
-		fmt.Println(err)
+		return err
 	}
-	fmt.Println("Successfully Opened jpn101.json")
+	fmt.Printf("Successfully Opened %s.json\n", jpn)
 	// defer the closing of our jsonFile so that we can parse it later on
 	defer jsonFile.Close()
 
@@ -25,15 +26,16 @@ func InsertJson(db *sql.DB) {
 	var data []utils.WordList
 
 	if err := json.Unmarshal(byteValue, &data); err != nil {
-		panic(err)
+		return err
 	}
 
 	for _, word := range data {
 		insertJson := fmt.Sprintf(`INSERT INTO wordlists (vocab,hiragana,type,meaning,jlpt) VALUES ('%s','%s','%s','%s','%s')`, word.Vocab, word.Hiragana, word.Type, word.Meaning, word.Jlpt)
 		_, err = db.Exec(insertJson)
 		if err != nil {
-			fmt.Println(err)
+			return err
 		}
 	}
+	return nil
 
 }
