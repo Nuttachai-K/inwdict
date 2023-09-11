@@ -16,10 +16,10 @@ type WordList struct {
 }
 
 type Form struct {
-	Dict     string `json:"dict"`
-	Ta       string `json:"ta"`
-	Te       string `json:"te"`
-	Negative string `json:"negative"`
+	Dict string `json:"dict"`
+	Ta   string `json:"ta"`
+	Te   string `json:"te"`
+	Nai  string `json:"nai"`
 }
 
 // Recieve pointer of slice of WordList and encoding it to json file
@@ -28,7 +28,7 @@ func wordListToJson(sliceWordList *[]WordList, jsonFile string) {
 	_ = os.WriteFile(jsonFile, file, 0644)
 }
 
-// Get word type from w and change its form to dict form according to its type
+// ToDictForm change hiragana to dict form according to verb type
 func (w WordList) ToDictForm() string {
 	var dict = ""
 	fmt.Printf("hiragana : %s len : %v\n", w.Vocab, len(w.Vocab))
@@ -80,10 +80,11 @@ func (w WordList) ToDictForm() string {
 			dict = fmt.Sprintf("%sくる", w.Vocab[:len(w.Vocab)-9])
 		}
 	}
-	fmt.Printf("futsukei : %s\n\n", dict)
+	fmt.Printf("jishokei : %s\n\n", dict)
 	return dict
 }
 
+// ToTaForm change hiragana to ta form according to verb type
 func (w WordList) ToTaForm() string {
 	var ta = ""
 	fmt.Printf("hiragana : %s len : %v\n", w.Vocab, len(w.Vocab))
@@ -139,6 +140,7 @@ func (w WordList) ToTaForm() string {
 	return ta
 }
 
+// ToTeForm change hiragana to te form according to verb type
 func (w WordList) ToTeForm() string {
 	var te = ""
 	fmt.Printf("hiragana : %s len : %v word type : %s\n ", w.Vocab, len(w.Vocab), w.Type)
@@ -192,4 +194,60 @@ func (w WordList) ToTeForm() string {
 	}
 	fmt.Printf("te form : %s\n\n", te)
 	return te
+}
+
+// ToNaiForm change hiragana to nai form according to verb type
+func (w WordList) ToNaiForm() string {
+	var nai = ""
+	fmt.Printf("hiragana : %s len : %v word type : %s\n ", w.Vocab, len(w.Vocab), w.Type)
+	last3char := w.Vocab[len(w.Vocab)-9:]
+	fmt.Printf("Last 3 Character : %s\n", last3char)
+	if w.Type == "คำกริยา (Verb 1)" {
+
+		switch last3char {
+		case "います":
+			nai = fmt.Sprintf("%sわない", w.Vocab[:len(w.Vocab)-9])
+
+		case "します":
+			nai = fmt.Sprintf("%sさない", w.Vocab[:len(w.Vocab)-9])
+
+		case "きます":
+			nai = fmt.Sprintf("%sかない", w.Vocab[:len(w.Vocab)-9])
+
+		case "ぎます":
+			nai = fmt.Sprintf("%sがない", w.Vocab[:len(w.Vocab)-9])
+
+		case "みます":
+			nai = fmt.Sprintf("%sまない", w.Vocab[:len(w.Vocab)-9])
+
+		case "びます":
+			nai = fmt.Sprintf("%sばない", w.Vocab[:len(w.Vocab)-9])
+
+		case "ちます":
+			nai = fmt.Sprintf("%sたない", w.Vocab[:len(w.Vocab)-9])
+
+		case "ります":
+			nai = fmt.Sprintf("%sらない", w.Vocab[:len(w.Vocab)-9])
+
+		case "にます":
+			nai = fmt.Sprintf("%sなない", w.Vocab[:len(w.Vocab)-9])
+
+		default:
+			nai = ""
+		}
+
+	} else if w.Type == "คำกริยา (Verb 2)" {
+
+		nai = fmt.Sprintf("%sない", w.Vocab[:len(w.Vocab)-6])
+
+	} else if w.Type == "คำกริยา (Verb 3)" {
+
+		if last3char == "します" {
+			nai = fmt.Sprintf("%sしない", w.Vocab[:len(w.Vocab)-9])
+		} else if last3char == "きます" {
+			nai = fmt.Sprintf("%sこない", w.Vocab[:len(w.Vocab)-9])
+		}
+	}
+	fmt.Printf("te form : %s\n\n", nai)
+	return nai
 }
