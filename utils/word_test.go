@@ -51,15 +51,103 @@ func TestToDictForm(t *testing.T) {
 
 }
 
+var testTaForms = []testForm{
+	{WordList{
+		Vocab: "写します",
+		Type:  "คำกริยา (Verb 1)",
+	}, "写した"},
+	{WordList{
+		Vocab: "いきます",
+		Type:  "คำกริยา (Verb 1)",
+	}, "いった"},
+	{WordList{
+		Vocab: "みます",
+		Type:  "คำกริยา (Verb 2)",
+	}, "みた"},
+	{WordList{
+		Vocab: "きます",
+		Type:  "คำกริยา (Verb 2)",
+	}, "きた"},
+	{WordList{
+		Vocab: "します",
+		Type:  "คำกริยา (Verb 3)",
+	}, "した"},
+	{WordList{
+		Vocab: "きます",
+		Type:  "คำกริยา (Verb 3)",
+	}, "きた"},
+}
+
+func TestToTaForm(t *testing.T) {
+
+	for _, testTaList := range testTaForms {
+		// Call the function being tested
+		result := testTaList.arg1.ToTaForm()
+
+		// Define the expected result
+		expected := testTaList.result
+
+		// Compare the actual result with the expected result
+		if result != expected {
+			t.Errorf("Expected: %s, Got: %s", expected, result)
+		}
+	}
+
+}
+
+var testTeForms = []testForm{
+	{WordList{
+		Vocab: "写します",
+		Type:  "คำกริยา (Verb 1)",
+	}, "写して"},
+	{WordList{
+		Vocab: "いきます",
+		Type:  "คำกริยา (Verb 1)",
+	}, "いって"},
+	{WordList{
+		Vocab: "みます",
+		Type:  "คำกริยา (Verb 2)",
+	}, "みて"},
+	{WordList{
+		Vocab: "きます",
+		Type:  "คำกริยา (Verb 2)",
+	}, "きて"},
+	{WordList{
+		Vocab: "します",
+		Type:  "คำกริยา (Verb 3)",
+	}, "して"},
+	{WordList{
+		Vocab: "きます",
+		Type:  "คำกริยา (Verb 3)",
+	}, "きて"},
+}
+
+func TestToTeForm(t *testing.T) {
+
+	for _, testTeList := range testTeForms {
+		// Call the function being tested
+		result := testTeList.arg1.ToTeForm()
+
+		// Define the expected result
+		expected := testTeList.result
+
+		// Compare the actual result with the expected result
+		if result != expected {
+			t.Errorf("Expected: %s, Got: %s", expected, result)
+		}
+	}
+
+}
+
 var testNaiForms = []testForm{
 	{WordList{
 		Vocab: "写します",
 		Type:  "คำกริยา (Verb 1)",
 	}, "写さない"},
 	{WordList{
-		Vocab: "止まります",
+		Vocab: "あります",
 		Type:  "คำกริยา (Verb 1)",
-	}, "止まらない"},
+	}, "ない"},
 	{WordList{
 		Vocab: "みます",
 		Type:  "คำกริยา (Verb 2)",

@@ -88,6 +88,10 @@ func (w WordList) ToDictForm() string {
 func (w WordList) ToTaForm() string {
 	var ta = ""
 	fmt.Printf("hiragana : %s len : %v\n", w.Vocab, len(w.Vocab))
+	if w.Type == "คำกริยา (Verb 1)" && w.Hiragana == "いきます" {
+		ta = "いった"
+		return ta
+	}
 	last3char := w.Vocab[len(w.Vocab)-9:]
 	fmt.Printf("Last 3 Character : %s\n", last3char)
 	if w.Type == "คำกริยา (Verb 1)" {
@@ -144,6 +148,10 @@ func (w WordList) ToTaForm() string {
 func (w WordList) ToTeForm() string {
 	var te = ""
 	fmt.Printf("hiragana : %s len : %v word type : %s\n ", w.Vocab, len(w.Vocab), w.Type)
+	if w.Type == "คำกริยา (Verb 1)" && w.Vocab == "いきます" {
+		te = "いって"
+		return te
+	}
 	last3char := w.Vocab[len(w.Vocab)-9:]
 	fmt.Printf("Last 3 Character : %s\n", last3char)
 	if w.Type == "คำกริยา (Verb 1)" {
@@ -156,7 +164,7 @@ func (w WordList) ToTeForm() string {
 			te = fmt.Sprintf("%sして", w.Vocab[:len(w.Vocab)-9])
 
 		case "きます":
-			te = fmt.Sprintf("%sいで", w.Vocab[:len(w.Vocab)-9])
+			te = fmt.Sprintf("%sいて", w.Vocab[:len(w.Vocab)-9])
 
 		case "ぎます":
 			te = fmt.Sprintf("%sいで", w.Vocab[:len(w.Vocab)-9])
@@ -200,6 +208,10 @@ func (w WordList) ToTeForm() string {
 func (w WordList) ToNaiForm() string {
 	var nai = ""
 	fmt.Printf("hiragana : %s len : %v word type : %s\n ", w.Vocab, len(w.Vocab), w.Type)
+	if w.Type == "คำกริยา (Verb 1)" && w.Vocab == "あります" {
+		nai = "ない"
+		return nai
+	}
 	last3char := w.Vocab[len(w.Vocab)-9:]
 	fmt.Printf("Last 3 Character : %s\n", last3char)
 	if w.Type == "คำกริยา (Verb 1)" {
