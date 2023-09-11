@@ -1,3339 +1,3199 @@
 [
     {
         "vocab": "きいてください",
-        "hiragana": "kiitekudasai",
+        "hiragana": "きいてください",
         "type": "วลี (Phrase)",
         "meaning": "กรุณาฟัง",
         "jlpt": "N5"
     },
     {
         "vocab": "みてください",
-        "hiragana": "mitekudasai",
+        "hiragana": "みてください",
         "type": "วลี (Phrase)",
         "meaning": "กรุณาดู",
         "jlpt": "N5"
     },
     {
         "vocab": "いってください",
-        "hiragana": "ittekudasai",
+        "hiragana": "いってください",
         "type": "วลี (Phrase)",
         "meaning": "กรุณาพูด (Say)",
         "jlpt": "N5"
     },
     {
         "vocab": "かいてください",
-        "hiragana": "kaitekudasai",
+        "hiragana": "かいてください",
         "type": "วลี (Phrase)",
         "meaning": "กรุณาเขียน",
         "jlpt": "N5"
     },
     {
         "vocab": "はなしてください",
-        "hiragana": "hanashitekudasai",
+        "hiragana": "はなしてください",
         "type": "วลี (Phrase)",
         "meaning": "กรุณาพูดคุย (Speak)",
         "jlpt": "N5"
     },
     {
         "vocab": "しゅくだいをしてください",
-        "hiragana": "shukudai o shitekudasai",
+        "hiragana":  "しゅくだいをしてください",
         "type": "วลี (Phrase)",
         "meaning": "กรุณาทำการบ้าน",
         "jlpt": "N5"
     },
     {
         "vocab": "しゅくだいをだしてください",
-        "hiragana": "shukudai o dashitekudasai",
+        "hiragana":  "しゅくだいをだしてください",
         "type": "วลี (Phrase)",
         "meaning": "กรุณาส่งการบ้าน",
         "jlpt": "N5"
     },
     {
         "vocab": "もういちどおねがいします",
-        "hiragana": "mouichido onegaishimasu",
+        "hiragana": "もういちどおねがいします",
         "type": "วลี (Phrase)",
         "meaning": "(ขอความกรุณา) อีกครั้ง",
         "jlpt": "N5"
     },
     {
         "vocab": "はじめましょう",
-        "hiragana": "hajimemashou",
+        "hiragana":  "はじめましょう",
         "type": "วลี (Phrase)",
         "meaning": "มาเริ่ม (เรียน) กัน",
         "jlpt": "N5"
     },
     {
         "vocab": "おわりましょう",
-        "hiragana": "owarimashou",
+        "hiragana":  "おわりましょう",
         "type": "วลี (Phrase)",
         "meaning": "เลิก (เรียน) กัน",
         "jlpt": "N5"
     },
     {
         "vocab": "わたし",
-        "hiragana": "watashi",
+        "hiragana": "わたし",
         "type": "คำนาม (Noun)",
         "meaning": "ฉัน",
         "jlpt": "N5"
     },
     {
         "vocab": "なまえ",
-        "hiragana": "namae",
+        "hiragana": "なまえ",
         "type": "คำนาม (Noun)",
         "meaning": "ชื่อ",
         "jlpt": "N5"
     },
     {
         "vocab": "＿さん",
-        "hiragana": "_san",
+        "hiragana": "＿さん",
         "type": "คำนาม (Noun)",
         "meaning": "คุณ",
         "jlpt": "N5"
     },
     {
         "vocab": "はい",
-        "hiragana": "hai",
+        "hiragana": "はい",
         "type": "คำอุทาน (Interjection)",
         "meaning": "ตอบรับว่าอยู่ครับ/ค่ะ",
         "jlpt": "N5"
     },
     {
         "vocab": "いません",
-        "hiragana": "imasen",
+        "hiragana": "いません",
         "type": "วลี (Phrase)",
         "meaning": "เพื่อนตอบแทนว่าคนที่ถูกเรียกชื่อ “ไม่อยู่ครับ/ค่ะ”",
         "jlpt": "N5"
     },
     {
         "vocab": "わかりますか",
-        "hiragana": "wakarimasuka",
+        "hiragana": "わかりますか",
         "type": "วลี (Phrase)",
         "meaning": "เข้าใจไหม",
         "jlpt": "N5"
     },
     {
         "vocab": "はい、わかります",
-        "hiragana": "hai,wakarimasu",
+        "hiragana": "はい、わかります",
         "type": "วลี (Phrase)",
         "meaning": "เข้าใจครับ/ค่ะ",
         "jlpt": "N5"
     },
     {
         "vocab": "いいえ、わかりません",
-        "hiragana": "iie,wakarimasen",
+        "hiragana": "いいえ、わかりません",
         "type": "วลี (Phrase)",
         "meaning": "ไม่เข้าใจครับ/ค่ะ",
         "jlpt": "N5"
     },
     {
         "vocab": "ゆっくりおねがいします",
-        "hiragana": "yukkuri onegaishimasu",
+        "hiragana": "ゆっくりおねがいします",
         "type": "วลี (Phrase)",
         "meaning": "ขอความกรุณา (พูด) ช้าลง",
         "jlpt": "N5"
     },
     {
         "vocab": "じゅぎょう",
-        "hiragana": "jugyou",
+        "hiragana": "じゅぎょう",
         "type": "คำนาม (Noun)",
         "meaning": "ชั่วโมงเรียน (คาบเรียน)",
         "jlpt": "N5"
     },
     {
         "vocab": "しゅくだい",
-        "hiragana": "shukudai",
+        "hiragana": "しゅくだい",
         "type": "คำนาม (Noun)",
         "meaning": "การบ้าน",
         "jlpt": "N5"
     },
     {
         "vocab": "きょうかしょ",
-        "hiragana": "kyoukasho",
+        "hiragana": "きょうかしょ",
         "type": "คำนาม (Noun)",
         "meaning": "หนังสือเรียน",
-        "jlpt": "N5"
+        "jlpt": "N3"
     },
     {
         "vocab": "クイズ",
-        "hiragana": "kuizu",
+        "hiragana": "クイズ",
         "type": "คำนาม (Noun)",
         "meaning": "สอบย่อย (Quiz)",
-        "jlpt": "N5"
+        "jlpt": "N1"
     },
     {
         "vocab": "テスト",
-        "hiragana": "tesuto",
+        "hiragana": "テスト",
         "type": "คำนาม (Noun)",
         "meaning": "การสอบ (Test)",
         "jlpt": "N5"
     },
     {
         "vocab": "おはようございます",
-        "hiragana": "ohayougozaimasu",
+        "hiragana": "おはようございます",
         "type": "คำทักทาย, แสดงความรู้สึก (Expressions)",
         "meaning": "สวัสดีตอนเช้า",
         "jlpt": "N5"
     },
     {
         "vocab": "こんにちは",
-        "hiragana": "konnichiwa",
+        "hiragana": "こんにちは",
         "type": "คำทักทาย, แสดงความรู้สึก (Expressions)",
         "meaning": "สวัสดีตอนกลางวัน",
         "jlpt": "N5"
     },
     {
         "vocab": "こんばんは",
-        "hiragana": "konbanwa",
+        "hiragana": "こんばんは",
         "type": "คำทักทาย, แสดงความรู้สึก (Expressions)",
         "meaning": "สวัสดีตอนเย็น",
         "jlpt": "N5"
     },
     {
         "vocab": "さようなら",
-        "hiragana": "sayounara",
+        "hiragana": "さようなら",
         "type": "คำทักทาย, แสดงความรู้สึก (Expressions)",
         "meaning": "ลาก่อน",
         "jlpt": "N5"
     },
     {
         "vocab": "おねがいします",
-        "hiragana": "onegaishimasu",
+        "hiragana": "おねがいします",
         "type": "วลี (Phrase)",
         "meaning": "ขอความกรุณาด้วย",
-        "jlpt": "N5"
+        "jlpt": "N2"
     },
     {
         "vocab": "すみません",
-        "hiragana": "sumimasen",
+        "hiragana": "すみません",
         "type": "คำทักทาย, แสดงความรู้สึก (Expressions)",
         "meaning": "ขอโทษ",
-        "jlpt": "N5"
+        "jlpt": "N3"
     },
     {
         "vocab": "しつれいします",
-        "hiragana": "shitsureishimasu",
+        "hiragana": "しつれいします",
         "type": "คำทักทาย, แสดงความรู้สึก (Expressions)",
         "meaning": "ขอโทษที่เสียมารยาท เช่น ใช้กับการขออนุญาตเข้าห้อง ออกจากห้อง ขอวางสายโทรศัพท์ เป็นต้น",
         "jlpt": "N5"
     },
     {
         "vocab": "ありがとうございます",
-        "hiragana": "arigatougozaimasu",
+        "hiragana":  "ありがとうございます",
         "type": "คำทักทาย, แสดงความรู้สึก (Expressions)",
         "meaning": "ขอบคุณ",
         "jlpt": "N5"
     },
     {
         "vocab": "はじめまして",
-        "hiragana": "hajimemashite",
+        "hiragana": "はじめまして",
         "type": "คำทักทาย, แสดงความรู้สึก (Expressions)",
         "meaning": "ยินดีที่ได้รู้จัก (ใช้พูดตอนแนะนำตัวกับคนที่เจอกันเป็นครั้งแรก)",
         "jlpt": "N5"
     },
     {
         "vocab": "よろしくおねがいします",
-        "hiragana": "yoroshiku onegaishimasu",
+        "hiragana": "よろしくおねがいします",
         "type": "คำทักทาย, แสดงความรู้สึก (Expressions)",
         "meaning": "ขอฝากเนื้อฝากตัวด้วย",
         "jlpt": "N5"
     },
     {
         "vocab": "がくせい",
-        "hiragana": "gakusei",
+        "hiragana": "がくせい",
         "type": "คำนาม (Noun)",
         "meaning": "นักเรียน",
         "jlpt": "N5"
     },
     {
         "vocab": "せんせい",
-        "hiragana": "sensei",
+        "hiragana": "せんせい",
         "type": "คำนาม (Noun)",
         "meaning": "ครู อาจารย์",
         "jlpt": "N5"
     },
     {
         "vocab": "かいしゃいん",
-        "hiragana": "kaishain",
+        "hiragana": "かいしゃいん",
         "type": "คำนาม (Noun)",
         "meaning": "พนักงานบริษัท",
         "jlpt": "N5"
     },
     {
         "vocab": "ぎんこういん",
-        "hiragana": "ginkouin",
+        "hiragana":  "ぎんこういん",
         "type": "คำนาม (Noun)",
         "meaning": "พนักงานธนาคาร",
         "jlpt": "N5"
     },
     {
         "vocab": "いしゃ",
-        "hiragana": "isha",
+        "hiragana": "いしゃ",
         "type": "คำนาม (Noun)",
         "meaning": "หมอ",
         "jlpt": "N5"
     },
     {
         "vocab": "エンジニア",
-        "hiragana": "enjinia",
+        "hiragana": "エンジニア",
         "type": "คำนาม (Noun)",
         "meaning": "วิศวกร",
-        "jlpt": "N5"
+        "jlpt": "N1"
     },
     {
         "vocab": "こうむいん",
-        "hiragana": "koumuin",
+        "hiragana": "こうむいん",
         "type": "คำนาม (Noun)",
         "meaning": "ข้าราชการ",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "ぎんこう",
-        "hiragana": "ginkou",
+        "hiragana":  "ぎんこう",
         "type": "คำนาม (Noun)",
         "meaning": "ธนาคาร",
         "jlpt": "N5"
     },
     {
         "vocab": "かいしゃ",
-        "hiragana": "kaisha",
+        "hiragana": "かいしゃ",
         "type": "คำนาม (Noun)",
         "meaning": "บริษัท",
         "jlpt": "N5"
     },
     {
         "vocab": "びょういん",
-        "hiragana": "byouin",
+        "hiragana": "びょういん",
         "type": "คำนาม (Noun)",
         "meaning": "โรงพยาบาล",
         "jlpt": "N5"
     },
     {
         "vocab": "がっこう",
-        "hiragana": "gakkou",
+        "hiragana": "がっこう",
         "type": "คำนาม (Noun)",
         "meaning": "โรงเรียน",
         "jlpt": "N5"
     },
     {
         "vocab": "だいがく",
-        "hiragana": "daigaku",
+        "hiragana":  "だいがく",
         "type": "คำนาม (Noun)",
         "meaning": "มหาวิทยาลัย",
         "jlpt": "N5"
     },
     {
         "vocab": "がくぶ",
-        "hiragana": "gakubu",
+        "hiragana": "がくぶ",
         "type": "คำนาม (Noun)",
         "meaning": "คณะ",
-        "jlpt": "N5"
+        "jlpt": "N2"
     },
     {
         "vocab": "じょうほうがくぶ",
-        "hiragana": "jouhougakubu",
+        "hiragana":  "じょうほうがくぶ",
         "type": "คำนาม (Noun)",
         "meaning": "คณะเทคโนโลยีสารสนเทศ",
-        "jlpt": "N5"
+        "jlpt": "N3"
     },
     {
         "vocab": "けいえいがくぶ",
-        "hiragana": "keieigakubu",
+        "hiragana": "けいえいがくぶ",
         "type": "คำนาม (Noun)",
         "meaning": "คณะบริหารธุกิจ",
-        "jlpt": "N5"
+        "jlpt": "N3"
     },
     {
         "vocab": "こうがくぶ",
-        "hiragana": "kougakubu",
+        "hiragana": "こうがくぶ",
         "type": "คำนาม (Noun)",
         "meaning": "คณะวิศวกรรมศาสตร์",
-        "jlpt": "N5"
+        "jlpt": "N1"
     },
     {
         "vocab": "しゃいん",
-        "hiragana": "shain",
+        "hiragana": "しゃいん",
         "type": "คำนาม (Noun)",
         "meaning": "พนักงานบริษัท (ใช้เมื่อบอกสังกัดว่าเป็นพนักงานของบริษัทอะไร \nเช่นトヨタのしゃいん (toyota no shain) พนักงานบริษัทโตโยต้า)",
         "jlpt": "N5"
     },
     {
         "vocab": "１ねんせい",
-        "hiragana": "ichinensei",
+        "hiragana": "１ねんせい",
         "type": "คำนาม (Noun)",
         "meaning": "ปี 1",
-        "jlpt": "N5"
+        "jlpt": "N1"
     },
     {
         "vocab": "２ねんせい",
-        "hiragana": "ninensei",
+        "hiragana": "２ねんせい",
         "type": "คำนาม (Noun)",
         "meaning": "ปี 2",
-        "jlpt": "N5"
+        "jlpt": "N1"
     },
     {
         "vocab": "３ねんせい",
-        "hiragana": "sannensei",
+        "hiragana": "３ねんせい",
         "type": "คำนาม (Noun)",
         "meaning": "ปี 3",
-        "jlpt": "N5"
+        "jlpt": "N1"
     },
     {
         "vocab": "４ねんせい",
-        "hiragana": "yonensei",
+        "hiragana": "４ねんせい",
         "type": "คำนาม (Noun)",
         "meaning": "ปี 4",
-        "jlpt": "N5"
+        "jlpt": "N1"
     },
     {
         "vocab": "ここ",
-        "hiragana": "koko",
+        "hiragana":  "ここ",
         "type": "คำนาม (Noun)",
         "meaning": "ที่นี่",
         "jlpt": "N5"
     },
     {
         "vocab": "そこ",
-        "hiragana": "soko",
+        "hiragana": "そこ",
         "type": "คำนาม (Noun)",
         "meaning": "ที่นั่น",
         "jlpt": "N5"
     },
     {
         "vocab": "あそこ",
-        "hiragana": "asoko",
+        "hiragana": "あそこ",
         "type": "คำนาม (Noun)",
         "meaning": "ที่โน่น",
         "jlpt": "N5"
     },
     {
         "vocab": "ちゅうしゃじょう",
-        "hiragana": "chuushajou",
+        "hiragana":  "ちゅうしゃじょう", 
         "type": "คำนาม (Noun)",
         "meaning": "ที่จอดรถ",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "トイレ",
-        "hiragana": "toire",
+        "hiragana": "トイレ",
         "type": "คำนาม (Noun)",
         "meaning": "ห้องน้ำ",
         "jlpt": "N5"
     },
     {
         "vocab": "としょかん",
-        "hiragana": "toshokan",
+        "hiragana": "としょかん",
         "type": "คำนาม (Noun)",
         "meaning": "ห้องสมุด",
         "jlpt": "N5"
     },
     {
         "vocab": "オフィス",
-        "hiragana": "ofisu",
+        "hiragana": "オフィス",
         "type": "คำนาม (Noun)",
         "meaning": "ออฟฟิศ",
-        "jlpt": "N5"
+        "jlpt": "N3"
     },
     {
         "vocab": "Aとう",
-        "hiragana": "A tou",
+        "hiragana": "Aとう",
         "type": "คำนาม (Noun)",
         "meaning": "ตึก A",
-        "jlpt": "N5"
+        "jlpt": "N1"
     },
     {
         "vocab": "Bとう",
-        "hiragana": "B tou",
+        "hiragana": "Bとう",
         "type": "คำนาม (Noun)",
         "meaning": "ตึก B",
-        "jlpt": "N5"
+        "jlpt": "N1"
     },
     {
         "vocab": "Cとう",
-        "hiragana": "C tou",
+        "hiragana": "Cとう",
         "type": "คำนาม (Noun)",
         "meaning": "ตึก C",
-        "jlpt": "N5"
+        "jlpt": "N1"
     },
     {
         "vocab": "Dとう",
-        "hiragana": "D tou",
+        "hiragana": "Dとう",
         "type": "คำนาม (Noun)",
         "meaning": "ตึก D",
-        "jlpt": "N5"
+        "jlpt": "N1"
     },
     {
         "vocab": "Eとう",
-        "hiragana": "E tou",
+        "hiragana": "Eとう",
         "type": "คำนาม (Noun)",
         "meaning": "ตึก E",
-        "jlpt": "N5"
+        "jlpt": "N1"
     },
     {
         "vocab": "きょうしつ",
-        "hiragana": "kyoushitsu",
+        "hiragana":  "きょうしつ",
         "type": "คำนาม (Noun)",
         "meaning": "ห้องเรียน",
         "jlpt": "N5"
     },
     {
         "vocab": "しょくどう",
-        "hiragana": "shokudou",
+        "hiragana": "しょくどう",
         "type": "คำนาม (Noun)",
         "meaning": "โรงอาหาร",
         "jlpt": "N5"
     },
     {
         "vocab": "コンピュータールーム",
-        "hiragana": "konpyu-ta-ru-mu",
+        "hiragana": "コンピュータールーム",
         "type": "คำนาม (Noun)",
         "meaning": "ห้องคอมพิวเตอร์",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "ちか１かい",
-        "hiragana": "chikaikkai",
+        "hiragana": "ちか１かい",
         "type": "คำนาม (Noun)",
         "meaning": "ชั้นใต้ดิน (B1)",
         "jlpt": "N5"
     },
     {
         "vocab": "１かい",
-        "hiragana": "ikkai",
+        "hiragana": "１かい",
         "type": "คำนาม (Noun)",
         "meaning": "ชั้น 1",
         "jlpt": "N5"
     },
     {
         "vocab": "２かい",
-        "hiragana": "nikai",
+        "hiragana":  "２かい",
         "type": "คำนาม (Noun)",
         "meaning": "ชั้น 2",
         "jlpt": "N5"
     },
     {
         "vocab": "３がい",
-        "hiragana": "sangai",
+        "hiragana": "３がい",
         "type": "คำนาม (Noun)",
         "meaning": "ชั้น 3",
         "jlpt": "N5"
     },
     {
         "vocab": "４かい",
-        "hiragana": "yonkai",
+        "hiragana": "４かい",
         "type": "คำนาม (Noun)",
         "meaning": "ชั้น 4",
         "jlpt": "N5"
     },
     {
         "vocab": "５かい",
-        "hiragana": "gokai",
+        "hiragana": "５かい",
         "type": "คำนาม (Noun)",
         "meaning": "ชั้น 5",
         "jlpt": "N5"
     },
     {
         "vocab": "６かい",
-        "hiragana": "rokkai",
+        "hiragana": "６かい",
         "type": "คำนาม (Noun)",
         "meaning": "ชั้น 6",
         "jlpt": "N5"
     },
     {
         "vocab": "にほんご",
-        "hiragana": "nihongo",
+        "hiragana": "にほんご",
         "type": "คำนาม (Noun)",
         "meaning": "ภาษาญี่ปุ่น",
         "jlpt": "N5"
     },
     {
         "vocab": "えいご",
-        "hiragana": "eigo",
+        "hiragana": "えいご",
         "type": "คำนาม (Noun)",
         "meaning": "ภาษาอังกฤษ",
         "jlpt": "N5"
     },
     {
         "vocab": "にほんじん",
-        "hiragana": "nihonjin",
+        "hiragana": "にほんじん",
         "type": "คำนาม (Noun)",
         "meaning": "ชาวญี่ปุ่น",
         "jlpt": "N5"
     },
     {
         "vocab": "エレベーター",
-        "hiragana": "erebe-ta-",
+        "hiragana": "エレベーター",
         "type": "คำนาม (Noun)",
         "meaning": "ลิฟต์",
         "jlpt": "N5"
     },
     {
         "vocab": "コピーや",
-        "hiragana": "kopi-ya",
+        "hiragana": "コピーや",
         "type": "คำนาม (Noun)",
         "meaning": "ร้านถ่ายเอกสาร",
         "jlpt": "N5"
     },
     {
         "vocab": "かいだん",
-        "hiragana": "kaidan",
+        "hiragana":  "かいだん",
         "type": "คำนาม (Noun)",
         "meaning": "บันได",
         "jlpt": "N5"
     },
     {
         "vocab": "しゅくだいのポスト",
-        "hiragana": "shukudainoposuto",
+        "hiragana": "しゅくだいのポスト",
         "type": "คำนาม (Noun)",
         "meaning": "ตู้ส่งการบ้านอาจารย์",
         "jlpt": "N5"
     },
     {
         "vocab": "ATM",
-        "hiragana": "e-tiemu",
+        "hiragana": "ATM",
         "type": "คำนาม (Noun)",
         "meaning": "เอทีเอ็ม",
         "jlpt": "N5"
     },
     {
         "vocab": "たいいくかん",
-        "hiragana": "taiikukan",
+        "hiragana": "たいいくかん",
         "type": "คำนาม (Noun)",
         "meaning": "โรงยิม",
         "jlpt": "N5"
     },
     {
         "vocab": "でんわ",
-        "hiragana": "denwa",
+        "hiragana": "でんわ",
         "type": "คำนาม (Noun)",
         "meaning": "โทรศัพท์",
         "jlpt": "N5"
     },
     {
         "vocab": "でんわばんごう",
-        "hiragana": "denwabangou",
+        "hiragana": "でんわばんごう",
         "type": "คำนาม (Noun)",
         "meaning": "เบอร์โทรศัพท์",
         "jlpt": "N5"
     },
     {
         "vocab": "なんばん",
-        "hiragana": "nanban",
+        "hiragana": "なんばん",
         "type": "คำแสดงคำถาม (Question word)",
         "meaning": "เบอร์อะไร",
         "jlpt": "N5"
     },
     {
         "vocab": "そうですか",
-        "hiragana": "soudesuka",
+        "hiragana":  "そうですか",
         "type": "วลี (Phrase)",
         "meaning": "งั้นหรือ (ใช้พูดแสดงการรับทราบสิ่งที่อีกฝ่ายหนึ่งบอกมา)　",
         "jlpt": "N5"
     },
     {
         "vocab": "いません",
-        "hiragana": "imasen",
+        "hiragana": "いません",
         "type": "วลี (Phrase)",
         "meaning": "ไม่อยู่",
         "jlpt": "N5"
     },
     {
         "vocab": "ごぜん",
-        "hiragana": "gozen",
+        "hiragana": "ごぜん",
         "type": "คำนาม (Noun)",
         "meaning": "ช่วงเช้า",
         "jlpt": "N5"
     },
     {
         "vocab": "ごご",
-        "hiragana": "gogo",
+        "hiragana": "ごご",
         "type": "คำนาม (Noun)",
         "meaning": "ช่วงบ่าย",
         "jlpt": "N5"
     },
     {
         "vocab": "いま",
-        "hiragana": "ima",
+        "hiragana":  "いま",
         "type": "คำนาม (Noun)",
         "meaning": "ตอนนี้",
         "jlpt": "N5"
     },
     {
         "vocab": "なんじ",
-        "hiragana": "nanji",
+        "hiragana":  "なんじ",
         "type": "คำแสดงคำถาม (Question word)",
         "meaning": "กี่โมง",
         "jlpt": "N5"
     },
     {
         "vocab": "げつようび",
-        "hiragana": "getsuyoubi",
+        "hiragana": "げつようび",
         "type": "คำนาม (Noun)",
         "meaning": "วันจันทร์",
         "jlpt": "N5"
     },
     {
         "vocab": "かようび",
-        "hiragana": "kayoubi",
+        "hiragana": "かようび",
         "type": "คำนาม (Noun)",
         "meaning": "วันอังคาร",
         "jlpt": "N5"
     },
     {
         "vocab": "すいようび",
-        "hiragana": "suiyoubi",
+        "hiragana": "すいようび",
         "type": "คำนาม (Noun)",
         "meaning": "วันพุธ",
         "jlpt": "N5"
     },
     {
         "vocab": "もくようび",
-        "hiragana": "mokuyoubi",
+        "hiragana": "もくようび",
         "type": "คำนาม (Noun)",
         "meaning": "วันพฤหัสบดี",
         "jlpt": "N5"
     },
     {
         "vocab": "きんようび",
-        "hiragana": "kinyoubi",
+        "hiragana": "きんようび",
         "type": "คำนาม (Noun)",
         "meaning": "วันศุกร์",
         "jlpt": "N5"
     },
     {
         "vocab": "どようび",
-        "hiragana": "doyoubi",
+        "hiragana": "どようび",
         "type": "คำนาม (Noun)",
         "meaning": "วันเสาร์",
         "jlpt": "N5"
     },
     {
         "vocab": "にちようび",
-        "hiragana": "nichiyoubi",
+        "hiragana":  "にちようび",
         "type": "คำนาม (Noun)",
         "meaning": "วันอาทิตย์",
         "jlpt": "N5"
     },
     {
         "vocab": "なんようび",
-        "hiragana": "nanyoubi",
+        "hiragana":  "なんようび",
         "type": "คำนาม (Noun)",
         "meaning": "วันอะไร",
         "jlpt": "N5"
     },
     {
         "vocab": "じゅぎょう",
-        "hiragana": "jyugyou",
+        "hiragana": "じゅぎょう",
         "type": "คำนาม (Noun)",
         "meaning": "ชั่วโมงเรียน (คาบเรียน)",
         "jlpt": "N5"
     },
     {
         "vocab": "デパート",
-        "hiragana": "depa-to",
+        "hiragana": "デパート",
         "type": "คำนาม (Noun)",
         "meaning": "ห้างสรรพสินค้า",
         "jlpt": "N5"
     },
     {
         "vocab": "ゆうびんきょく",
-        "hiragana": "yuubinkyoku",
+        "hiragana": "ゆうびんきょく",
         "type": "คำนาม (Noun)",
         "meaning": "ไปรษณีย์",
         "jlpt": "N5"
     },
     {
         "vocab": "ぎんこう",
-        "hiragana": "ginkou",
+        "hiragana": "ぎんこう",
         "type": "คำนาม (Noun)",
         "meaning": "ธนาคาร",
         "jlpt": "N5"
     },
     {
         "vocab": "びょういん",
-        "hiragana": "byouin",
+        "hiragana": "びょういん",
         "type": "คำนาม (Noun)",
         "meaning": "โรงพยาบาล",
         "jlpt": "N5"
     },
     {
         "vocab": "かいしゃ",
-        "hiragana": "kaisha",
+        "hiragana": "かいしゃ",
         "type": "คำนาม (Noun)",
         "meaning": "บริษัท",
         "jlpt": "N5"
     },
     {
         "vocab": "スーパー",
-        "hiragana": "su-pa-",
+        "hiragana": "スーパー",
         "type": "คำนาม (Noun)",
         "meaning": "ซูเปอร์มาร์เก็ต",
         "jlpt": "N5"
     },
     {
         "vocab": "＿から",
-        "hiragana": "＿kara",
+        "hiragana": "＿から",
         "type": "คำช่วย (Postpositional particle)",
         "meaning": "ตั้งแต่...",
         "jlpt": "N5"
     },
     {
         "vocab": "＿まで",
-        "hiragana": "＿made",
+        "hiragana":  "＿まで",
         "type": "คำช่วย (Postpositional particle)",
         "meaning": "จนถึง...",
         "jlpt": "N5"
     },
     {
         "vocab": "＿と",
-        "hiragana": "＿to",
+        "hiragana":  "＿と",
         "type": "คำช่วย (Postpositional particle)",
         "meaning": "กับ",
         "jlpt": "N5"
     },
     {
         "vocab": "すうじ",
-        "hiragana": "suuji",
+        "hiragana": "すうじ",
         "type": "คำนาม (Noun)",
         "meaning": "ตัวเลข",
-        "jlpt": "N5"
+        "jlpt": "N3"
     },
     {
         "vocab": "ゼロ/れい",
-        "hiragana": "zero/rei",
+        "hiragana":  "ゼロ/れい",
         "type": "คำนาม (Noun)",
         "meaning": "0",
         "jlpt": "N5"
     },
     {
         "vocab": "いち",
-        "hiragana": "ichi",
+        "hiragana":  "いち",
         "type": "คำนาม (Noun)",
         "meaning": "1",
         "jlpt": "N5"
     },
     {
         "vocab": "に",
-        "hiragana": "ni",
+        "hiragana": "に",
         "type": "คำนาม (Noun)",
         "meaning": "2",
         "jlpt": "N5"
     },
     {
         "vocab": "さん",
-        "hiragana": "san",
+        "hiragana": "さん",
         "type": "คำนาม (Noun)",
         "meaning": "3",
         "jlpt": "N5"
     },
     {
         "vocab": "よん/し",
-        "hiragana": "yon/shi",
+        "hiragana":  "よん/し",
         "type": "คำนาม (Noun)",
         "meaning": "4",
         "jlpt": "N5"
     },
     {
         "vocab": "ご",
-        "hiragana": "go",
+        "hiragana": "ご",
         "type": "คำนาม (Noun)",
         "meaning": "5",
         "jlpt": "N5"
     },
     {
         "vocab": "ろく",
-        "hiragana": "roku",
+        "hiragana": "ろく",
         "type": "คำนาม (Noun)",
         "meaning": "6",
         "jlpt": "N5"
     },
     {
         "vocab": "なな/しち",
-        "hiragana": "nana/shichi",
+        "hiragana": "なな/しち",
         "type": "คำนาม (Noun)",
         "meaning": "7",
         "jlpt": "N5"
     },
     {
         "vocab": "はち",
-        "hiragana": "hachi",
+        "hiragana":  "はち",
         "type": "คำนาม (Noun)",
         "meaning": "8",
         "jlpt": "N5"
     },
     {
         "vocab": "きゅう/く",
-        "hiragana": "kyuu/ku",
+        "hiragana": "きゅう/く",
         "type": "คำนาม (Noun)",
         "meaning": "9",
         "jlpt": "N5"
     },
     {
         "vocab": "じゅう",
-        "hiragana": "jyuu",
+        "hiragana": "じゅう",
         "type": "คำนาม (Noun)",
         "meaning": "10",
         "jlpt": "N5"
     },
     {
         "vocab": "じゅういち",
-        "hiragana": "jyuuichi",
+        "hiragana": "じゅういち",
         "type": "คำนาม (Noun)",
         "meaning": "11",
         "jlpt": "N5"
     },
     {
         "vocab": "じゅうに",
-        "hiragana": "jyuuni",
+        "hiragana": "じゅうに",
         "type": "คำนาม (Noun)",
         "meaning": "12",
         "jlpt": "N5"
     },
     {
         "vocab": "にじゅう",
-        "hiragana": "nijyuu",
+        "hiragana":  "にじゅう",
         "type": "คำนาม (Noun)",
         "meaning": "20",
         "jlpt": "N5"
     },
     {
         "vocab": "さんじゅう",
-        "hiragana": "sanjyuu",
+        "hiragana": "さんじゅう",
         "type": "คำนาม (Noun)",
         "meaning": "30",
         "jlpt": "N5"
     },
     {
         "vocab": "よんじゅう",
-        "hiragana": "yonjyuu",
+        "hiragana": "よんじゅう",
         "type": "คำนาม (Noun)",
         "meaning": "40",
         "jlpt": "N5"
     },
     {
         "vocab": "ごじゅう",
-        "hiragana": "gojyuu",
+        "hiragana": "ごじゅう",
         "type": "คำนาม (Noun)",
         "meaning": "50",
         "jlpt": "N5"
     },
     {
         "vocab": "ろくじゅう",
-        "hiragana": "rokujyuu",
+        "hiragana": "ろくじゅう",
         "type": "คำนาม (Noun)",
         "meaning": "60",
         "jlpt": "N5"
     },
     {
         "vocab": "じゅうご",
-        "hiragana": "jyuugo",
+        "hiragana": "じゅうご",
         "type": "คำนาม (Noun)",
         "meaning": "15",
         "jlpt": "N5"
     },
     {
         "vocab": "にじゅうご",
-        "hiragana": "nijyuugo",
+        "hiragana": "にじゅうご",
         "type": "คำนาม (Noun)",
         "meaning": "25",
         "jlpt": "N5"
     },
     {
         "vocab": "さんじゅうご",
-        "hiragana": "sanjyuugo",
+        "hiragana": "さんじゅうご",
         "type": "คำนาม (Noun)",
         "meaning": "35",
         "jlpt": "N5"
     },
     {
         "vocab": "よんじゅうご",
-        "hiragana": "yonjyuugo",
+        "hiragana": "よんじゅうご",
         "type": "คำนาม (Noun)",
         "meaning": "45",
         "jlpt": "N5"
     },
     {
         "vocab": "ごじゅうご",
-        "hiragana": "gojyuugo",
+        "hiragana": "ごじゅうご",
         "type": "คำนาม (Noun)",
         "meaning": "55",
         "jlpt": "N5"
     },
     {
         "vocab": "じかん",
-        "hiragana": "jikan",
+        "hiragana": "じかん",
         "type": "คำนาม (Noun)",
         "meaning": "เวลา",
         "jlpt": "N5"
     },
     {
         "vocab": "１じ",
-        "hiragana": "ichiji",
+        "hiragana": "１じ",
         "type": "คำนาม (Noun)",
         "meaning": "1 AM/PM",
         "jlpt": "N5"
     },
     {
         "vocab": "２じ",
-        "hiragana": "niji",
+        "hiragana": "２じ",
         "type": "คำนาม (Noun)",
         "meaning": "2 AM/PM",
         "jlpt": "N5"
     },
     {
         "vocab": "３じ",
-        "hiragana": "sanji",
+        "hiragana": "３じ",
         "type": "คำนาม (Noun)",
         "meaning": "3 AM/PM",
         "jlpt": "N5"
     },
     {
         "vocab": "４じ",
-        "hiragana": "yoji",
+        "hiragana":  "４じ",
         "type": "คำนาม (Noun)",
         "meaning": "4 AM/PM",
         "jlpt": "N5"
     },
     {
         "vocab": "５じ",
-        "hiragana": "goji",
+        "hiragana":  "５じ",
         "type": "คำนาม (Noun)",
         "meaning": "5 AM/PM",
         "jlpt": "N5"
     },
     {
         "vocab": "６じ",
-        "hiragana": "rokuji",
+        "hiragana": "６じ",
         "type": "คำนาม (Noun)",
         "meaning": "6 AM/PM",
         "jlpt": "N5"
     },
     {
         "vocab": "７じ",
-        "hiragana": "shichiji",
+        "hiragana": "７じ",
         "type": "คำนาม (Noun)",
         "meaning": "7 AM/PM",
         "jlpt": "N5"
     },
     {
         "vocab": "８じ",
-        "hiragana": "hachiji",
+        "hiragana": "８じ",
         "type": "คำนาม (Noun)",
         "meaning": "8 AM/PM",
         "jlpt": "N5"
     },
     {
         "vocab": "９じ",
-        "hiragana": "kuji",
+        "hiragana": "９じ",
         "type": "คำนาม (Noun)",
         "meaning": "9 AM/PM",
         "jlpt": "N5"
     },
     {
         "vocab": "１０じ",
-        "hiragana": "jyuuji",
+        "hiragana": "１０じ",
         "type": "คำนาม (Noun)",
         "meaning": "10 AM/PM",
         "jlpt": "N5"
     },
     {
         "vocab": "１１じ",
-        "hiragana": "jyuuichiji",
+        "hiragana": "１１じ",
         "type": "คำนาม (Noun)",
         "meaning": "11 AM/PM",
         "jlpt": "N5"
     },
     {
         "vocab": "１２じ",
-        "hiragana": "jyuuniji",
+        "hiragana": "１２じ",
         "type": "คำนาม (Noun)",
         "meaning": "12 AM/PM",
         "jlpt": "N5"
     },
     {
         "vocab": "１じはん",
-        "hiragana": "ichijihan",
+        "hiragana": "１じはん",
         "type": "คำนาม (Noun)",
         "meaning": "1:30 AM/PM",
         "jlpt": "N5"
     },
     {
         "vocab": "２じはん",
-        "hiragana": "nijihan",
+        "hiragana": "２じはん",
         "type": "คำนาม (Noun)",
         "meaning": "2:30 AM/PM",
         "jlpt": "N5"
     },
     {
         "vocab": "３じはん",
-        "hiragana": "sanjihan",
+        "hiragana": "３じはん",
         "type": "คำนาม (Noun)",
         "meaning": "3:30 AM/PM",
         "jlpt": "N5"
     },
     {
         "vocab": "４じはん",
-        "hiragana": "yojihan",
+        "hiragana": "４じはん",
         "type": "คำนาม (Noun)",
         "meaning": "4:30 AM/PM",
         "jlpt": "N5"
     },
     {
         "vocab": "５じはん",
-        "hiragana": "gojihan",
+        "hiragana": "５じはん",
         "type": "คำนาม (Noun)",
         "meaning": "5:30 AM/PM",
         "jlpt": "N5"
     },
     {
         "vocab": "６じはん",
-        "hiragana": "rokujihan",
+        "hiragana": "６じはん",
         "type": "คำนาม (Noun)",
         "meaning": "6:30 AM/PM",
         "jlpt": "N5"
     },
     {
         "vocab": "７じはん",
-        "hiragana": "shichijihan",
+        "hiragana": "７じはん",
         "type": "คำนาม (Noun)",
         "meaning": "7:30 AM/PM",
         "jlpt": "N5"
     },
     {
         "vocab": "８じはん",
-        "hiragana": "hachijihan",
+        "hiragana": "８じはん",
         "type": "คำนาม (Noun)",
         "meaning": "8:30 AM/PM",
         "jlpt": "N5"
     },
     {
         "vocab": "９じはん",
-        "hiragana": "kujihan",
+        "hiragana": "９じはん",
         "type": "คำนาม (Noun)",
         "meaning": "9:30 AM/PM",
         "jlpt": "N5"
     },
     {
         "vocab": "１０じはん",
-        "hiragana": "jyuujihan",
+        "hiragana":  "１０じはん",
         "type": "คำนาม (Noun)",
         "meaning": "10:30 AM/PM",
         "jlpt": "N5"
     },
     {
         "vocab": "１１じはん",
-        "hiragana": "jyuuichijihan",
+        "hiragana": "１１じはん",
         "type": "คำนาม (Noun)",
         "meaning": "11:30 AM/PM",
         "jlpt": "N5"
     },
     {
         "vocab": "１２じはん",
-        "hiragana": "jyuunijihan",
+        "hiragana": "１２じはん",
         "type": "คำนาม (Noun)",
         "meaning": "12:30 AM/PM",
         "jlpt": "N5"
     },
     {
         "vocab": "＿ぷん",
-        "hiragana": "＿pun",
+        "hiragana": "＿ぷん",
         "type": "คำนาม (Noun)",
         "meaning": "_นาที (ใช้กับนาทีที่ลงท้ายด้วย 10 เช่น じゅっぷん (juppun)\n10 นาที, にじゅっぷん (nijuppun) 20 นาที, \nさんじゅっぷん (sanjuppun)  30 นาที เป็นต้น",
         "jlpt": "N5"
     },
     {
         "vocab": "＿ふん",
-        "hiragana": "＿fun",
+        "hiragana": "＿ふん",
         "type": "คำนาม (Noun)",
         "meaning": "_นาที (ใช้กับนาทีที่ลงท้ายด้วย 5 เช่น ごふん (gofun) 5 นาที, \nじゅうごふん(juugofun)15 นาที , にじゅうごふん (nijuugofun)\n25 นาที เป็นต้น",
         "jlpt": "N5"
     },
     {
         "vocab": "なんじ",
-        "hiragana": "nanji",
+        "hiragana": "なんじ",
         "type": "คำแสดงคำถาม (Question word)",
         "meaning": "กี่โมง",
         "jlpt": "N5"
     },
     {
-        "vocab": "１じ",
-        "hiragana": "ichiji",
-        "type": "คำนาม (Noun)",
-        "meaning": "1 AM/PM",
-        "jlpt": "N5"
-    },
-    {
-        "vocab": "２じ",
-        "hiragana": "niji",
-        "type": "คำนาม (Noun)",
-        "meaning": "2 AM/PM",
-        "jlpt": "N5"
-    },
-    {
-        "vocab": "３じ",
-        "hiragana": "sanji",
-        "type": "คำนาม (Noun)",
-        "meaning": "3 AM/PM",
-        "jlpt": "N5"
-    },
-    {
-        "vocab": "４じ",
-        "hiragana": "yoji",
-        "type": "คำนาม (Noun)",
-        "meaning": "4 AM/PM",
-        "jlpt": "N5"
-    },
-    {
-        "vocab": "５じ",
-        "hiragana": "goji",
-        "type": "คำนาม (Noun)",
-        "meaning": "5 AM/PM",
-        "jlpt": "N5"
-    },
-    {
-        "vocab": "６じ",
-        "hiragana": "rokuji",
-        "type": "คำนาม (Noun)",
-        "meaning": "6 AM/PM",
-        "jlpt": "N5"
-    },
-    {
-        "vocab": "７じ",
-        "hiragana": "shichiji",
-        "type": "คำนาม (Noun)",
-        "meaning": "7 AM/PM",
-        "jlpt": "N5"
-    },
-    {
-        "vocab": "８じ",
-        "hiragana": "hachiji",
-        "type": "คำนาม (Noun)",
-        "meaning": "8 AM/PM",
-        "jlpt": "N5"
-    },
-    {
-        "vocab": "９じ",
-        "hiragana": "kuji",
-        "type": "คำนาม (Noun)",
-        "meaning": "9 AM/PM",
-        "jlpt": "N5"
-    },
-    {
-        "vocab": "１０じ",
-        "hiragana": "jyuuji",
-        "type": "คำนาม (Noun)",
-        "meaning": "10 AM/PM",
-        "jlpt": "N5"
-    },
-    {
-        "vocab": "１１じ",
-        "hiragana": "jyuuichiji",
-        "type": "คำนาม (Noun)",
-        "meaning": "11 AM/PM",
-        "jlpt": "N5"
-    },
-    {
-        "vocab": "１２じ",
-        "hiragana": "jyuuniji",
-        "type": "คำนาม (Noun)",
-        "meaning": "12 AM/PM",
-        "jlpt": "N5"
-    },
-    {
         "vocab": "＿はん",
-        "hiragana": "＿han",
+        "hiragana": "＿はん",
         "type": "คำนาม (Noun)",
         "meaning": "ครึ่ง",
         "jlpt": "N5"
     },
     {
-        "vocab": "＿ふん",
-        "hiragana": "＿pun",
-        "type": "คำนาม (Noun)",
-        "meaning": "_นาที (ใช้กับนาทีที่ลงท้ายด้วย 5 เช่น ごふん (gofun) 5 นาที, \nじゅうごふん(juugofun)15 นาที , にじゅうごふん (nijuugofun)\n25 นาที เป็นต้น",
-        "jlpt": "N5"
-    },
-    {
-        "vocab": "＿ぷん",
-        "hiragana": "＿fun",
-        "type": "คำนาม (Noun)",
-        "meaning": "_นาที (ใช้กับนาทีที่ลงท้ายด้วย 10 เช่น じゅっぷん (juppun)\n10 นาที, にじゅっぷん (nijuppun) 20 นาที, \nさんじゅっぷん (sanjuppun)  30 นาที เป็นต้น",
-        "jlpt": "N5"
-    },
-    {
-        "vocab": "げつようび",
-        "hiragana": "getsuyoubi",
-        "type": "คำนาม (Noun)",
-        "meaning": "วันจันทร์",
-        "jlpt": "N5"
-    },
-    {
-        "vocab": "かようび",
-        "hiragana": "kayoubi",
-        "type": "คำนาม (Noun)",
-        "meaning": "วันอังคาร",
-        "jlpt": "N5"
-    },
-    {
-        "vocab": "すいようび",
-        "hiragana": "suiyoubi",
-        "type": "คำนาม (Noun)",
-        "meaning": "วันพุธ",
-        "jlpt": "N5"
-    },
-    {
-        "vocab": "もくようび",
-        "hiragana": "mokuyoubi",
-        "type": "คำนาม (Noun)",
-        "meaning": "วันพฤหัสบดี",
-        "jlpt": "N5"
-    },
-    {
-        "vocab": "きんようび",
-        "hiragana": "kinyoubi",
-        "type": "คำนาม (Noun)",
-        "meaning": "วันศุกร์",
-        "jlpt": "N5"
-    },
-    {
-        "vocab": "どようび",
-        "hiragana": "doyoubi",
-        "type": "คำนาม (Noun)",
-        "meaning": "วันเสาร์",
-        "jlpt": "N5"
-    },
-    {
-        "vocab": "にちようび",
-        "hiragana": "nichiyoubi",
-        "type": "คำนาม (Noun)",
-        "meaning": "วันอาทิตย์",
-        "jlpt": "N5"
-    },
-    {
         "vocab": "あさ",
-        "hiragana": "asa",
+        "hiragana":  "あさ",
         "type": "คำนาม (Noun)",
         "meaning": "ตอนเช้า",
         "jlpt": "N5"
     },
     {
         "vocab": "ひる",
-        "hiragana": "hiru",
+        "hiragana": "ひる",
         "type": "คำนาม (Noun)",
         "meaning": "ตอนกลางวัน",
         "jlpt": "N5"
     },
     {
         "vocab": "よる",
-        "hiragana": "yoru",
+        "hiragana": "よる",
         "type": "คำนาม (Noun)",
         "meaning": "ตอนกลางคืน",
         "jlpt": "N5"
     },
     {
         "vocab": "いつも",
-        "hiragana": "itsumo",
+        "hiragana": "いつも",
         "type": "คำวิเศษณ์ (Adverb)",
         "meaning": "เสมอ, เป็นประจำ",
         "jlpt": "N5"
     },
     {
         "vocab": "どこ",
-        "hiragana": "doko",
+        "hiragana":  "どこ",
         "type": "คำแสดงคำถาม (Question word)",
         "meaning": "ที่ไหน",
         "jlpt": "N5"
     },
     {
         "vocab": "だいがく",
-        "hiragana": "daigaku",
+        "hiragana": "だいがく",
         "type": "คำนาม (Noun)",
         "meaning": "มหาวิทยาลัย",
         "jlpt": "N5"
     },
     {
         "vocab": "うち/いえ",
-        "hiragana": "uchi/ie",
+        "hiragana": "うち/いえ",
         "type": "คำนาม (Noun)",
         "meaning": "บ้าน",
         "jlpt": "N5"
     },
     {
         "vocab": "かいしゃ",
-        "hiragana": "kaisha",
+        "hiragana": "かいしゃ",
         "type": "คำนาม (Noun)",
         "meaning": "บริษัท",
         "jlpt": "N5"
     },
     {
         "vocab": "びょういん",
-        "hiragana": "byouin",
+        "hiragana":  "びょういん",
         "type": "คำนาม (Noun)",
         "meaning": "โรงพยาบาล",
         "jlpt": "N5"
     },
     {
         "vocab": "デパート",
-        "hiragana": "depa-to",
+        "hiragana": "デパート",
         "type": "คำนาม (Noun)",
         "meaning": "ห้างสรรพสินค้า",
         "jlpt": "N5"
     },
     {
         "vocab": "スーパー",
-        "hiragana": "su-pa-",
+        "hiragana": "スーパー",
         "type": "คำนาม (Noun)",
         "meaning": "ซูเปอร์มาร์เก็ต",
         "jlpt": "N5"
     },
     {
         "vocab": "ゆうびんきょく",
-        "hiragana": "yuubinkyoku",
+        "hiragana": "ゆうびんきょく",
         "type": "คำนาม (Noun)",
         "meaning": "ไปรษณีย์",
         "jlpt": "N5"
     },
     {
         "vocab": "ぎんこう",
-        "hiragana": "ginkou",
+        "hiragana": "ぎんこう",
         "type": "คำนาม (Noun)",
         "meaning": "ธนาคาร",
         "jlpt": "N5"
     },
     {
         "vocab": "がっこう",
-        "hiragana": "gakkou",
+        "hiragana": "がっこう",
         "type": "คำนาม (Noun)",
         "meaning": "โรงเรียน",
         "jlpt": "N5"
     },
     {
         "vocab": "レストラン",
-        "hiragana": "resutoran",
+        "hiragana": "レストラン",
         "type": "คำนาม (Noun)",
         "meaning": "ร้านอาหาร",
         "jlpt": "N5"
     },
     {
         "vocab": "どうやって",
-        "hiragana": "douyatte",
+        "hiragana": "どうやって",
         "type": "คำแสดงคำถาม (Question word)",
         "meaning": "อย่างไร",
         "jlpt": "N5"
     },
     {
         "vocab": "バス",
-        "hiragana": "basu",
+        "hiragana": "バス",
         "type": "คำนาม (Noun)",
         "meaning": "รถเมล์",
         "jlpt": "N5"
     },
     {
         "vocab": "タクシー",
-        "hiragana": "takushi-",
+        "hiragana": "タクシー",
         "type": "คำนาม (Noun)",
         "meaning": "รถแท็กซี่",
         "jlpt": "N5"
     },
     {
         "vocab": "くるま",
-        "hiragana": "kuruma",
+        "hiragana": "くるま",
         "type": "คำนาม (Noun)",
         "meaning": "รถยนต์",
         "jlpt": "N5"
     },
     {
         "vocab": "バイク",
-        "hiragana": "baiku",
+        "hiragana": "バイク",
         "type": "คำนาม (Noun)",
         "meaning": "รถมอเตอร์ไซค์",
         "jlpt": "N5"
     },
     {
         "vocab": "じてんしゃ",
-        "hiragana": "jitensha",
+        "hiragana": "じてんしゃ",
         "type": "คำนาม (Noun)",
         "meaning": "รถจักรยาน",
         "jlpt": "N5"
     },
     {
         "vocab": "でんしゃ",
-        "hiragana": "densha",
+        "hiragana":  "でんしゃ",
         "type": "คำนาม (Noun)",
         "meaning": "รถไฟ",
         "jlpt": "N5"
     },
     {
         "vocab": "ちかてつ",
-        "hiragana": "chikatetu",
+        "hiragana":  "ちかてつ",
         "type": "คำนาม (Noun)",
         "meaning": "รถไฟใต้ดิน",
         "jlpt": "N5"
     },
     {
         "vocab": "ひこうき",
-        "hiragana": "hikouki",
+        "hiragana": "ひこうき",
         "type": "คำนาม (Noun)",
         "meaning": "เครื่องบิน",
         "jlpt": "N5"
     },
     {
         "vocab": "あるいて",
-        "hiragana": "aruite",
-        "type": "คำกริยา (Verb)",
+        "hiragana": "あるいて",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "เดิน",
         "jlpt": "N5"
     },
     {
         "vocab": "おきます",
-        "hiragana": "okimasu",
-        "type": "คำกริยา (Verb)",
+        "hiragana": "おきます",
+        "type": "คำกริยา (Verb 2)",
         "meaning": "ตื่น",
         "jlpt": "N5"
     },
     {
         "vocab": "ねます",
-        "hiragana": "nemasu",
-        "type": "คำกริยา (Verb)",
+        "hiragana": "ねます",
+        "type": "คำกริยา (Verb 2)",
         "meaning": "นอน",
         "jlpt": "N5"
     },
     {
         "vocab": "いきます",
-        "hiragana": "ikimasu",
-        "type": "คำกริยา (Verb)",
+        "hiragana": "いきます",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "ไป",
         "jlpt": "N5"
     },
     {
         "vocab": "きます",
-        "hiragana": "kimasu",
-        "type": "คำกริยา (Verb)",
+        "hiragana": "きます",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "มา",
         "jlpt": "N5"
     },
     {
         "vocab": "かえります",
-        "hiragana": "kaerimasu",
-        "type": "คำกริยา (Verb)",
+        "hiragana": "かえります",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "กลับ",
         "jlpt": "N5"
     },
     {
         "vocab": "＿に（じかん）",
-        "hiragana": "＿ni",
+        "hiragana": "＿に（じかん）",
         "type": "คำช่วย (Postpositional particle)",
         "meaning": "คำช่วยใช้กับเวลา",
         "jlpt": "N5"
     },
     {
         "vocab": "＿に（ばしょ）",
-        "hiragana": "＿ni",
+        "hiragana":  "＿に（ばしょ）",
         "type": "คำช่วย (Postpositional particle)",
         "meaning": "คำช่วยใช้กับสถานที่",
         "jlpt": "N5"
     },
     {
         "vocab": "＿で",
-        "hiragana": "＿de",
+        "hiragana":  "＿で",
         "type": "คำช่วย (Postpositional particle)",
         "meaning": "คำช่วยใช้กับคำนามยานพาหนะที่ใช้ในการเดินทาง",
         "jlpt": "N5"
     },
     {
         "vocab": "そして",
-        "hiragana": "soshite",
+        "hiragana": "そして",
         "type": "คำสันธาน (Conjunctions)",
         "meaning": "แล้วก็...",
         "jlpt": "N5"
     },
     {
         "vocab": "これ",
-        "hiragana": "kore",
+        "hiragana": "これ",
         "type": "คำนาม (Noun)",
         "meaning": "นี่",
         "jlpt": "N5"
     },
     {
         "vocab": "それ",
-        "hiragana": "sore",
+        "hiragana": "それ",
         "type": "คำนาม (Noun)",
         "meaning": "นั่น",
         "jlpt": "N5"
     },
     {
         "vocab": "あれ",
-        "hiragana": "are",
+        "hiragana": "あれ",
         "type": "คำนาม (Noun)",
         "meaning": "โน่น",
         "jlpt": "N5"
     },
     {
         "vocab": "おかね",
-        "hiragana": "okane",
+        "hiragana": "おかね",
         "type": "คำนาม (Noun)",
         "meaning": "เงิน",
         "jlpt": "N5"
     },
     {
         "vocab": "バーツ",
-        "hiragana": "ba-tsu",
+        "hiragana": "バーツ",
         "type": "คำนาม (Noun)",
         "meaning": "บาท",
         "jlpt": "N5"
     },
     {
         "vocab": "えん",
-        "hiragana": "en",
+        "hiragana":  "えん",
         "type": "คำนาม (Noun)",
         "meaning": "เยน",
         "jlpt": "N5"
     },
     {
         "vocab": "ドル",
-        "hiragana": "doru",
+        "hiragana": "ドル",
         "type": "คำนาม (Noun)",
         "meaning": "ดอลลาร์",
         "jlpt": "N5"
     },
     {
         "vocab": "たべもの",
-        "hiragana": "tabemono",
+        "hiragana": "たべもの",
         "type": "คำนาม (Noun)",
         "meaning": "ของกิน",
         "jlpt": "N5"
     },
     {
         "vocab": "のみもの",
-        "hiragana": "nomimono",
+        "hiragana": "のみもの",
         "type": "คำนาม (Noun)",
         "meaning": "เครื่องดื่ม",
         "jlpt": "N5"
     },
     {
         "vocab": "ごはん",
-        "hiragana": "gohan",
+        "hiragana": "ごはん",
         "type": "คำนาม (Noun)",
         "meaning": "ข้าว",
         "jlpt": "N5"
     },
     {
         "vocab": "くだもの",
-        "hiragana": "kudamono",
+        "hiragana": "くだもの",
         "type": "คำนาม (Noun)",
         "meaning": "ผลไม้",
         "jlpt": "N5"
     },
     {
         "vocab": "ソムタム",
-        "hiragana": "somutamu",
+        "hiragana": "ソムタム",
         "type": "คำนาม (Noun)",
         "meaning": "ส้มตำ",
         "jlpt": "N5"
     },
     {
         "vocab": "パッタイ",
-        "hiragana": "pattai",
+        "hiragana": "パッタイ",
         "type": "คำนาม (Noun)",
         "meaning": "ผัดไทย",
         "jlpt": "N5"
     },
     {
         "vocab": "マンゴー",
-        "hiragana": "mango-",
+        "hiragana": "マンゴー",
         "type": "คำนาม (Noun)",
         "meaning": "มะม่วง",
         "jlpt": "N5"
     },
     {
         "vocab": "ドリアン",
-        "hiragana": "dorian",
+        "hiragana": "ドリアン",
         "type": "คำนาม (Noun)",
         "meaning": "ทุเรียน",
         "jlpt": "N5"
     },
     {
         "vocab": "マンゴスチン",
-        "hiragana": "mangosutin",
+        "hiragana": "マンゴスチン",
         "type": "คำนาม (Noun)",
         "meaning": "มังคุด",
         "jlpt": "N5"
     },
     {
         "vocab": "だいがく",
-        "hiragana": "daigaku",
+        "hiragana": "だいがく",
         "type": "คำนาม (Noun)",
         "meaning": "มหาวิทยาลัย",
         "jlpt": "N5"
     },
     {
         "vocab": "ノート",
-        "hiragana": "no-to",
+        "hiragana":  "ノート",
         "type": "คำนาม (Noun)",
         "meaning": "สมุด",
         "jlpt": "N5"
     },
     {
         "vocab": "じしょ",
-        "hiragana": "jisyo",
+        "hiragana": "じしょ",
         "type": "คำนาม (Noun)",
         "meaning": "พจนานุกรม",
         "jlpt": "N5"
     },
     {
         "vocab": "えんぴつ",
-        "hiragana": "enpitsu",
+        "hiragana":  "えんぴつ",
         "type": "คำนาม (Noun)",
         "meaning": "ดินสอ",
         "jlpt": "N5"
     },
     {
         "vocab": "ペン",
-        "hiragana": "pen",
+        "hiragana":  "ペン",
         "type": "คำนาม (Noun)",
         "meaning": "ปากกา",
         "jlpt": "N5"
     },
     {
         "vocab": "けしゴム",
-        "hiragana": "keshigomu",
+        "hiragana": "けしゴム",
         "type": "คำนาม (Noun)",
         "meaning": "ยางลบ",
         "jlpt": "N5"
     },
     {
         "vocab": "ほん",
-        "hiragana": "hon",
+        "hiragana":  "ほん",
         "type": "คำนาม (Noun)",
         "meaning": "หนังสือ",
         "jlpt": "N5"
     },
     {
         "vocab": "かみ",
-        "hiragana": "kami",
+        "hiragana": "かみ",
         "type": "คำนาม (Noun)",
         "meaning": "กระดาษ",
         "jlpt": "N5"
     },
     {
         "vocab": "パソコン",
-        "hiragana": "pasokon",
+        "hiragana": "パソコン",
         "type": "คำนาม (Noun)",
         "meaning": "คอมพิวเตอร์",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "でんわ",
-        "hiragana": "denwa",
+        "hiragana": "でんわ",
         "type": "คำนาม (Noun)",
         "meaning": "โทรศัพท์",
         "jlpt": "N5"
     },
     {
         "vocab": "テレビ",
-        "hiragana": "terebi",
+        "hiragana": "テレビ",
         "type": "คำนาม (Noun)",
         "meaning": "โทรทัศน์",
         "jlpt": "N5"
     },
     {
         "vocab": "かばん",
-        "hiragana": "kaban",
+        "hiragana": "かばん",
         "type": "คำนาม (Noun)",
         "meaning": "กระเป๋า",
         "jlpt": "N5"
     },
     {
         "vocab": "とけい",
-        "hiragana": "tokei",
+        "hiragana":  "とけい",
         "type": "คำนาม (Noun)",
         "meaning": "นาฬิกา",
         "jlpt": "N5"
     },
     {
         "vocab": "シャツ",
-        "hiragana": "shatsu",
+        "hiragana": "シャツ",
         "type": "คำนาม (Noun)",
         "meaning": "เสื้อเชิ้ต",
         "jlpt": "N5"
     },
     {
         "vocab": "ネクタイ",
-        "hiragana": "nekutai",
+        "hiragana": "ネクタイ",
         "type": "คำนาม (Noun)",
         "meaning": "เนคไท",
         "jlpt": "N5"
     },
     {
         "vocab": "くつ",
-        "hiragana": "kutsu",
+        "hiragana": "くつ",
         "type": "คำนาม (Noun)",
         "meaning": "รองเท้า",
         "jlpt": "N5"
     },
     {
         "vocab": "いくら",
-        "hiragana": "ikura",
+        "hiragana": "いくら",
         "type": "คำแสดงคำถาม (Question word)",
         "meaning": "ราคาเท่าไร",
         "jlpt": "N5"
     },
     {
         "vocab": "すうじ",
-        "hiragana": "suuji",
+        "hiragana": "すうじ",
         "type": "คำนาม (Noun)",
         "meaning": "ตัวเลข",
-        "jlpt": "N5"
+        "jlpt": "N3"
     },
     {
         "vocab": "１００",
-        "hiragana": "hyaku",
+        "hiragana": "ひゃく",
         "type": "คำนาม (Noun)",
         "meaning": "หนึ่งร้อย",
         "jlpt": "N5"
     },
     {
         "vocab": "２００",
-        "hiragana": "nihyaku",
+        "hiragana": "にひゃく",
         "type": "คำนาม (Noun)",
         "meaning": "สองร้อย",
         "jlpt": "N5"
     },
     {
         "vocab": "３００",
-        "hiragana": "sanbyaku",
+        "hiragana": "さんびゃく",
         "type": "คำนาม (Noun)",
         "meaning": "สามร้อย",
         "jlpt": "N5"
     },
     {
         "vocab": "４００",
-        "hiragana": "yonhyaku",
+        "hiragana": "よんひゃく",
         "type": "คำนาม (Noun)",
         "meaning": "สี่ร้อย",
         "jlpt": "N5"
     },
     {
         "vocab": "５００",
-        "hiragana": "gohyaku",
+        "hiragana": "ごひゃく",
         "type": "คำนาม (Noun)",
         "meaning": "ห้าร้อย",
         "jlpt": "N5"
     },
     {
         "vocab": "６００",
-        "hiragana": "roppyaku",
+        "hiragana": "ろっぴゃく",
         "type": "คำนาม (Noun)",
         "meaning": "หกร้อย",
         "jlpt": "N5"
     },
     {
         "vocab": "７００",
-        "hiragana": "nanahyaku",
+        "hiragana": "ななひゃく",
         "type": "คำนาม (Noun)",
         "meaning": "เจ็ดร้อย",
         "jlpt": "N5"
     },
     {
         "vocab": "８００",
-        "hiragana": "happyaku",
+        "hiragana": "はっぴゃく",
         "type": "คำนาม (Noun)",
         "meaning": "แปดร้อย",
         "jlpt": "N5"
     },
     {
         "vocab": "９００",
-        "hiragana": "kyuuhyaku",
+        "hiragana": "きゅうひゃく",
         "type": "คำนาม (Noun)",
         "meaning": "เก้าร้อย",
         "jlpt": "N5"
     },
     {
         "vocab": "１０００",
-        "hiragana": "sen",
+        "hiragana": "いっせん",
         "type": "คำนาม (Noun)",
         "meaning": "หนึ่่งพัน",
         "jlpt": "N5"
     },
     {
         "vocab": "２０００",
-        "hiragana": "nisen",
+        "hiragana": "にせんね",
         "type": "คำนาม (Noun)",
         "meaning": "สองพัน",
         "jlpt": "N5"
     },
     {
         "vocab": "３０００",
-        "hiragana": "sanzen",
+        "hiragana": "さんぜん",
         "type": "คำนาม (Noun)",
         "meaning": "สามพัน",
         "jlpt": "N5"
     },
     {
         "vocab": "４０００",
-        "hiragana": "yonsen",
+        "hiragana": "よんせん",
         "type": "คำนาม (Noun)",
         "meaning": "สี่พัน",
         "jlpt": "N5"
     },
     {
         "vocab": "５０００",
-        "hiragana": "gosen",
+        "hiragana": "ごせん",
         "type": "คำนาม (Noun)",
         "meaning": "ห้าพัน",
         "jlpt": "N5"
     },
     {
         "vocab": "６０００",
-        "hiragana": "rokusen",
+        "hiragana": "ろくせん",
         "type": "คำนาม (Noun)",
         "meaning": "หกพัน",
         "jlpt": "N5"
     },
     {
         "vocab": "７０００",
-        "hiragana": "nanasen",
+        "hiragana": "ななせん",
         "type": "คำนาม (Noun)",
         "meaning": "เจ็ดพัน",
         "jlpt": "N5"
     },
     {
         "vocab": "８０００",
-        "hiragana": "hassen",
+        "hiragana": "はっせん",
         "type": "คำนาม (Noun)",
         "meaning": "แปดพัน",
         "jlpt": "N5"
     },
     {
         "vocab": "９０００",
-        "hiragana": "kyuusen",
+        "hiragana": "きゅうせん",
         "type": "คำนาม (Noun)",
         "meaning": "เก้าพัน",
         "jlpt": "N5"
     },
     {
         "vocab": "１００００",
-        "hiragana": "ichiman",
+        "hiragana": "いちまん",
         "type": "คำนาม (Noun)",
         "meaning": "หนึ่งหมื่น",
         "jlpt": "N5"
     },
     {
         "vocab": "２００００",
-        "hiragana": "niman",
+        "hiragana": "にまん",
         "type": "คำนาม (Noun)",
         "meaning": "สองหมื่น",
         "jlpt": "N5"
     },
     {
         "vocab": "３００００",
-        "hiragana": "sanman",
+        "hiragana": "さんまん",
         "type": "คำนาม (Noun)",
         "meaning": "สามหมื่น",
         "jlpt": "N5"
     },
     {
         "vocab": "４００００",
-        "hiragana": "yonman",
+        "hiragana": "よんまん",
         "type": "คำนาม (Noun)",
         "meaning": "สี่หมื่น",
         "jlpt": "N5"
     },
     {
         "vocab": "５００００",
-        "hiragana": "goman",
+        "hiragana": "ごまん",
         "type": "คำนาม (Noun)",
         "meaning": "ห้าหมื่น",
         "jlpt": "N5"
     },
     {
         "vocab": "６００００",
-        "hiragana": "rokuman",
+        "hiragana": "ろくまん",
         "type": "คำนาม (Noun)",
         "meaning": "หกหมื่น",
         "jlpt": "N5"
     },
     {
         "vocab": "７００００",
-        "hiragana": "nanaman",
+        "hiragana": "ななまん",
         "type": "คำนาม (Noun)",
         "meaning": "เจ็ดหมื่น",
         "jlpt": "N5"
     },
     {
         "vocab": "８００００",
-        "hiragana": "hachiman",
+        "hiragana": "はちまん",
         "type": "คำนาม (Noun)",
         "meaning": "แปดหมื่น",
         "jlpt": "N5"
     },
     {
         "vocab": "９００００",
-        "hiragana": "kyuuman",
+        "hiragana": "きゅまん",
         "type": "คำนาม (Noun)",
         "meaning": "เก้าหมื่น",
         "jlpt": "N5"
     },
     {
         "vocab": "１０００００",
-        "hiragana": "juuman",
+        "hiragana": "じゅうまん",
         "type": "คำนาม (Noun)",
         "meaning": "หนึ่งแสน",
         "jlpt": "N5"
     },
     {
         "vocab": "１００００００",
-        "hiragana": "hyakuman",
+        "hiragana": "ひゃくまん",
         "type": "คำนาม (Noun)",
         "meaning": "หนึ่งล้าน",
         "jlpt": "N5"
     },
     {
         "vocab": "ください",
-        "hiragana": "kudasai",
+        "hiragana": "ください",
         "type": "Expressions (phrases, clauses, etc.)",
         "meaning": "ขอ... (ใช้ตอนซื้อของ)",
         "jlpt": "N5"
     },
     {
         "vocab": "いくつ",
-        "hiragana": "ikutsu",
+        "hiragana": "いくつ",
         "type": "ลักษณะนาม (Noun)",
         "meaning": "กี่ชิ้น, กี่อัน",
         "jlpt": "N5"
     },
     {
         "vocab": "ひとつ",
-        "hiragana": "hitotsu",
+        "hiragana":  "ひとつ",
         "type": "ลักษณะนาม (Noun)",
         "meaning": "1ชิ้น, 1อัน",
         "jlpt": "N5"
     },
     {
         "vocab": "ふたつ",
-        "hiragana": "futatsu",
+        "hiragana": "ふたつ",
         "type": "ลักษณะนาม (Noun)",
         "meaning": "2ชิ้น, 2อัน",
         "jlpt": "N5"
     },
     {
         "vocab": "みっつ",
-        "hiragana": "mittsu",
+        "hiragana": "みっつ",
         "type": "ลักษณะนาม (Noun)",
         "meaning": "3ชิ้น, 3อัน",
         "jlpt": "N5"
     },
     {
         "vocab": "よっつ",
-        "hiragana": "yottsu",
+        "hiragana": "よっつ",
         "type": "ลักษณะนาม (Noun)",
         "meaning": "4ชิ้น, 4อัน",
         "jlpt": "N5"
     },
     {
         "vocab": "いつつ",
-        "hiragana": "itsutsu",
+        "hiragana": "いつつ",
         "type": "ลักษณะนาม (Noun)",
         "meaning": "5ชิ้น, 5อัน",
         "jlpt": "N5"
     },
     {
         "vocab": "むっつ",
-        "hiragana": "muttsu",
+        "hiragana": "むっつ",
         "type": "ลักษณะนาม (Noun)",
         "meaning": "6ชิ้น, 6อัน",
         "jlpt": "N5"
     },
     {
         "vocab": "ななつ",
-        "hiragana": "nanatsu",
+        "hiragana": "ななつ",
         "type": "ลักษณะนาม (Noun)",
         "meaning": "7ชิ้น, 7อัน",
         "jlpt": "N5"
     },
     {
         "vocab": "やっつ",
-        "hiragana": "yattsu",
+        "hiragana": "やっつ",
         "type": "ลักษณะนาม (Noun)",
         "meaning": "8ชิ้น, 8อัน",
         "jlpt": "N5"
     },
     {
         "vocab": "ここのつ",
-        "hiragana": "kokonotsu",
+        "hiragana": "ここのつ",
         "type": "ลักษณะนาม (Noun)",
         "meaning": "9ชิ้น, 9อัน",
         "jlpt": "N5"
     },
     {
         "vocab": "とお",
-        "hiragana": "too",
+        "hiragana": "とお",
         "type": "ลักษณะนาม (Noun)",
         "meaning": "10ชิ้น, 10อัน",
         "jlpt": "N5"
     },
     {
         "vocab": "ケーキ",
-        "hiragana": "ke-ki",
+        "hiragana": "ケーキ",
         "type": "คำนาม (Noun)",
         "meaning": "เค้ก",
         "jlpt": "N5"
     },
     {
         "vocab": "ハンバーガー",
-        "hiragana": "hanba-ga-",
+        "hiragana": "ハンバーガー",
         "type": "คำนาม (Noun)",
         "meaning": "แฮมเบอร์เกอร์",
         "jlpt": "N5"
     },
     {
         "vocab": "フライドポテト",
-        "hiragana": "furaidopoteto",
+        "hiragana":  "フライドポテト",
         "type": "คำนาม (Noun)",
         "meaning": "มันฝรั่งทอด",
         "jlpt": "N5"
     },
     {
         "vocab": "ジュース",
-        "hiragana": "jyu-su",
+        "hiragana": "ジュース",
         "type": "คำนาม (Noun)",
         "meaning": "น้ำผลไม้",
         "jlpt": "N5"
     },
     {
         "vocab": "ココナッツ",
-        "hiragana": "kokonattsu",
+        "hiragana": "ココナッツ",
         "type": "คำนาม (Noun)",
         "meaning": "มะพร้าว",
         "jlpt": "N5"
     },
     {
         "vocab": "おちゃ",
-        "hiragana": "ocha",
+        "hiragana":  "おちゃ",
         "type": "คำนาม (Noun)",
         "meaning": "ชา",
         "jlpt": "N5"
     },
     {
         "vocab": "みず",
-        "hiragana": "mizu",
+        "hiragana": "みず",
         "type": "คำนาม (Noun)",
         "meaning": "น้ำ",
         "jlpt": "N5"
     },
     {
         "vocab": "コーヒー",
-        "hiragana": "ko-hi-",
+        "hiragana":  "コーヒー",
         "type": "คำนาม (Noun)",
         "meaning": "กาแฟ",
         "jlpt": "N5"
     },
     {
         "vocab": "＿を",
-        "hiragana": "wo",
+        "hiragana": "＿を",
         "type": "คำช่วย (Postpositional particle)",
         "meaning": "คําช่วย を (ข้างหน้า を เป็นคํานาม)",
         "jlpt": "N5"
     },
     {
         "vocab": "たべます",
-        "hiragana": "tabemasu",
+        "hiragana": "たべます",
         "type": "คำกริยา (Verb)",
         "meaning": "กิน",
         "jlpt": "N5"
     },
     {
         "vocab": "のみます",
-        "hiragana": "nomimasu",
+        "hiragana": "のみます",
         "type": "คำกริยา (Verb)",
         "meaning": "ดื่ม",
         "jlpt": "N5"
     },
     {
         "vocab": "ごはん",
-        "hiragana": "gohan",
+        "hiragana": "ごはん",
         "type": "คำนาม (Noun)",
         "meaning": "ข้าว",
         "jlpt": "N5"
     },
     {
         "vocab": "パン",
-        "hiragana": "pan",
+        "hiragana": "パン",
         "type": "คำนาม (Noun)",
         "meaning": "ขนมปัง",
         "jlpt": "N5"
     },
     {
         "vocab": "さかな",
-        "hiragana": "sakana",
+        "hiragana":  "さかな",
         "type": "คำนาม (Noun)",
         "meaning": "ปลา",
         "jlpt": "N5"
     },
     {
         "vocab": "たまご",
-        "hiragana": "tamago",
+        "hiragana": "たまご",
         "type": "คำนาม (Noun)",
         "meaning": "ไข่",
         "jlpt": "N5"
     },
     {
         "vocab": "にく",
-        "hiragana": "niku",
+        "hiragana": "にく",
         "type": "คำนาม (Noun)",
         "meaning": "เนื้อ",
         "jlpt": "N5"
     },
     {
         "vocab": "やさい",
-        "hiragana": "yasai",
+        "hiragana": "やさい",
         "type": "คำนาม (Noun)",
         "meaning": "ผัก",
         "jlpt": "N5"
     },
     {
         "vocab": "くだもの",
-        "hiragana": "kudamono",
+        "hiragana": "くだもの",
         "type": "คำนาม (Noun)",
         "meaning": "ผลไม้",
         "jlpt": "N5"
     },
     {
         "vocab": "ラーメン",
-        "hiragana": "ra-men",
+        "hiragana": "ラーメン",
         "type": "คำนาม (Noun)",
         "meaning": "ราเมง",
         "jlpt": "N5"
     },
     {
         "vocab": "チャーハン",
-        "hiragana": "cya-han",
+        "hiragana": "チャーハン",
         "type": "คำนาม (Noun)",
         "meaning": "ข้าวผัด",
         "jlpt": "N5"
     },
     {
         "vocab": "（お）すし",
-        "hiragana": "(o)sushi",
+        "hiragana": "（お）すし",
         "type": "คำนาม (Noun)",
         "meaning": "ซูชิ",
         "jlpt": "N5"
     },
     {
         "vocab": "カレー（ライス）",
-        "hiragana": "kare-(raisu)",
+        "hiragana": "カレー（ライス）",
         "type": "คำนาม (Noun)",
         "meaning": "(ข้าว) แกงกะหรี่",
         "jlpt": "N5"
     },
     {
         "vocab": "おちゃ",
-        "hiragana": "ocha",
+        "hiragana": "おちゃ",
         "type": "คำนาม (Noun)",
         "meaning": "ชา",
         "jlpt": "N5"
     },
     {
         "vocab": "コーヒー",
-        "hiragana": "ko-hi-",
+        "hiragana": "コーヒー",
         "type": "คำนาม (Noun)",
         "meaning": "กาแฟ",
         "jlpt": "N5"
     },
     {
         "vocab": "ジュース",
-        "hiragana": "jyu-su",
+        "hiragana":  "ジュース",
         "type": "คำนาม (Noun)",
         "meaning": "น้ำผลไม้",
         "jlpt": "N5"
     },
     {
         "vocab": "こうちゃ",
-        "hiragana": "koucha",
+        "hiragana": "こうちゃ",
         "type": "คำนาม (Noun)",
         "meaning": "ชาฝรั่ง",
         "jlpt": "N5"
     },
     {
         "vocab": "ぎゅうにゅう",
-        "hiragana": "gyuunyuu",
+        "hiragana": "ぎゅうにゅう",
         "type": "คำนาม (Noun)",
         "meaning": "นม",
         "jlpt": "N5"
     },
     {
         "vocab": "みず",
-        "hiragana": "mizu",
+        "hiragana": "みず",
         "type": "คำนาม (Noun)",
         "meaning": "น้ำ",
         "jlpt": "N5"
     },
     {
         "vocab": "コーラ",
-        "hiragana": "ko-ra",
+        "hiragana": "コーラ",
         "type": "คำนาม (Noun)",
         "meaning": "โค้ก",
         "jlpt": "N5"
     },
     {
         "vocab": "あさ",
-        "hiragana": "asa",
+        "hiragana": "あさ",
         "type": "คำนาม (Noun)",
         "meaning": "เช้า",
         "jlpt": "N5"
     },
     {
         "vocab": "ひる",
-        "hiragana": "hiru",
+        "hiragana":  "ひる",
         "type": "คำนาม (Noun)",
         "meaning": "กลางวัน",
         "jlpt": "N5"
     },
     {
         "vocab": "よる",
-        "hiragana": "yoru",
+        "hiragana": "よる",
         "type": "คำนาม (Noun)",
         "meaning": "กลางคืน",
         "jlpt": "N5"
     },
     {
         "vocab": "あさごはん",
-        "hiragana": "asagohan",
+        "hiragana": "あさごはん",
         "type": "คำนาม (Noun)",
         "meaning": "ข้าวเช้า",
         "jlpt": "N5"
     },
     {
         "vocab": "ひるごはん",
-        "hiragana": "hirugohan",
+        "hiragana": "ひるごはん",
         "type": "คำนาม (Noun)",
         "meaning": "ข้าวกลางวัน",
         "jlpt": "N5"
     },
     {
         "vocab": "ばんごはん",
-        "hiragana": "bangohan",
+        "hiragana": "ばんごはん",
         "type": "คำนาม (Noun)",
         "meaning": "ข้าวเย็น",
         "jlpt": "N5"
     },
     {
         "vocab": "にほんりょうり",
-        "hiragana": "nihonryouri",
+        "hiragana": "にほんりょうり",
         "type": "คำนาม (Noun)",
         "meaning": "อาหารญี่ปุ่น",
         "jlpt": "N5"
     },
     {
         "vocab": "タイりょうり",
-        "hiragana": "tairyouri",
+        "hiragana": "タイりょうり",
         "type": "คำนาม (Noun)",
         "meaning": "อาหารไทย",
         "jlpt": "N5"
     },
     {
         "vocab": "なに",
-        "hiragana": "nani",
+        "hiragana": "なに",
         "type": "คำแสดงคำถาม (Question word)",
         "meaning": "อะไร",
         "jlpt": "N5"
     },
     {
         "vocab": "＿を",
-        "hiragana": "_wo",
+        "hiragana": "＿を",
         "type": "คำช่วย (Postpositional particle)",
         "meaning": "คำช่วย を",
         "jlpt": "N5"
     },
     {
         "vocab": "きのう",
-        "hiragana": "kinou",
+        "hiragana": "きのう",
         "type": "คำนาม (Noun)",
         "meaning": "เมื่อวานนี้",
         "jlpt": "N5"
     },
     {
         "vocab": "きょう",
-        "hiragana": "kyou",
+        "hiragana":  "きょう",
         "type": "คำนาม (Noun)",
         "meaning": "วันนี้",
         "jlpt": "N5"
     },
     {
         "vocab": "あした",
-        "hiragana": "ashita",
+        "hiragana": "あした",
         "type": "คำนาม (Noun)",
         "meaning": "พรุ่งนี้",
         "jlpt": "N5"
     },
     {
         "vocab": "けさ",
-        "hiragana": "kesa",
+        "hiragana":  "けさ",
         "type": "คำนาม (Noun)",
         "meaning": "เมื่อเช้านี้",
         "jlpt": "N5"
     },
     {
         "vocab": "こんばん",
-        "hiragana": "konban",
+        "hiragana":  "こんばん",
         "type": "คำนาม (Noun)",
         "meaning": "เย็นนี้",
         "jlpt": "N5"
     },
     {
         "vocab": "せんしゅう",
-        "hiragana": "senshuu",
+        "hiragana": "せんしゅう",
         "type": "คำนาม (Noun)",
         "meaning": "สัปดาห์ที่แล้ว",
         "jlpt": "N5"
     },
     {
         "vocab": "こんしゅう",
-        "hiragana": "konsyuu",
+        "hiragana": "こんしゅう",
         "type": "คำนาม (Noun)",
         "meaning": "สัปดาห์นี้",
         "jlpt": "N5"
     },
     {
         "vocab": "らいしゅう",
-        "hiragana": "raisyuu",
+        "hiragana": "らいしゅう",
         "type": "คำนาม (Noun)",
         "meaning": "สัปดาห์หน้า",
         "jlpt": "N5"
     },
     {
         "vocab": "せんげつ",
-        "hiragana": "sengetsu",
+        "hiragana": "せんげつ",
         "type": "คำนาม (Noun)",
         "meaning": "เดือนที่แล้ว",
         "jlpt": "N5"
     },
     {
         "vocab": "こんげつ",
-        "hiragana": "kongetsu",
+        "hiragana": "こんげつ",
         "type": "คำนาม (Noun)",
         "meaning": "เดือนนี้",
         "jlpt": "N5"
     },
     {
         "vocab": "らいげつ",
-        "hiragana": "raigetsu",
+        "hiragana": "らいげつ",
         "type": "คำนาม (Noun)",
         "meaning": "เดือนหน้า",
         "jlpt": "N5"
     },
     {
         "vocab": "みます",
-        "hiragana": "mimasu",
-        "type": "คำกริยา (Verb)",
+        "hiragana": "みます",
+        "type": "คำกริยา (Verb 2)",
         "meaning": "ดู",
         "jlpt": "N5"
     },
     {
         "vocab": "ききます",
-        "hiragana": "kikimasu",
-        "type": "คำกริยา (Verb)",
+        "hiragana": "ききます",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "ฟัง",
         "jlpt": "N5"
     },
     {
         "vocab": "かきます",
-        "hiragana": "kakimasu",
-        "type": "คำกริยา (Verb)",
+        "hiragana":  "かきます",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "เขียน",
         "jlpt": "N5"
     },
     {
         "vocab": "よみます",
-        "hiragana": "yomimasu",
-        "type": "คำกริยา (Verb)",
+        "hiragana": "よみます",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "อ่าน",
         "jlpt": "N5"
     },
     {
         "vocab": "します",
-        "hiragana": "shimasu",
-        "type": "คำกริยา (Verb)",
+        "hiragana": "します",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "ทำ (do)",
         "jlpt": "N5"
     },
     {
         "vocab": "かいます",
-        "hiragana": "kaimasu",
-        "type": "คำกริยา (Verb)",
+        "hiragana": "かいます",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "ซื้อ",
         "jlpt": "N5"
     },
     {
         "vocab": "あびます",
-        "hiragana": "abimasu",
-        "type": "คำกริยา (Verb)",
+        "hiragana": "あびます",
+        "type": "คำกริยา (Verb 2)",
         "meaning": "อาบ (น้ำ)",
         "jlpt": "N5"
     },
     {
         "vocab": "きます",
-        "hiragana": "kimasu",
-        "type": "คำกริยา (Verb)",
+        "hiragana": "きます",
+        "type": "คำกริยา (Verb 2)",
         "meaning": "ใส่ (เสื้อผ้า)",
         "jlpt": "N5"
     },
     {
         "vocab": "つくります",
-        "hiragana": "tsukurimasu",
-        "type": "คำกริยา (Verb)",
+        "hiragana": "つくります",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "ทำ, ผลิต, สร้าง (make)",
         "jlpt": "N5"
     },
     {
         "vocab": "べんきょうします",
-        "hiragana": "benkyoushimasu",
-        "type": "คำกริยา (Verb)",
+        "hiragana": "べんきょうします",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "เรียน",
         "jlpt": "N5"
     },
     {
         "vocab": "アルバイトします",
-        "hiragana": "arubaitoshimasu",
-        "type": "คำกริยา (Verb)",
+        "hiragana":  "アルバイトします",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "ทำงานพิเศษ",
         "jlpt": "N5"
     },
     {
         "vocab": "そうじします",
-        "hiragana": "soujishimasu",
-        "type": "คำกริยา (Verb)",
+        "hiragana": "そうじします",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "ทำความสะอาด",
         "jlpt": "N5"
     },
     {
         "vocab": "せんたくします",
-        "hiragana": "sentakushimasu",
-        "type": "คำกริยา (Verb)",
+        "hiragana":  "せんたくします",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "ซักผ้า",
         "jlpt": "N5"
     },
     {
         "vocab": "インターネット",
-        "hiragana": "inta-netto",
+        "hiragana": "インターネット",
         "type": "คำนาม (Noun)",
         "meaning": "อินเตอร์เน็ต",
         "jlpt": "N5"
     },
     {
         "vocab": "ラジオ",
-        "hiragana": "rajio",
+        "hiragana": "ラジオ",
         "type": "คำนาม (Noun)",
         "meaning": "วิทยุ",
         "jlpt": "N5"
     },
     {
         "vocab": "ほん",
-        "hiragana": "hon",
+        "hiragana": "ほん",
         "type": "คำนาม (Noun)",
         "meaning": "หนังสือ",
         "jlpt": "N5"
     },
     {
         "vocab": "しんぶん",
-        "hiragana": "shinbun",
+        "hiragana": "しんぶん",
         "type": "คำนาม (Noun)",
         "meaning": "หนังสือพิมพ์",
         "jlpt": "N5"
     },
     {
         "vocab": "おんがく",
-        "hiragana": "ongaku",
+        "hiragana": "おんがく",
         "type": "คำนาม (Noun)",
         "meaning": "เพลง",
         "jlpt": "N5"
     },
     {
         "vocab": "マンガ",
-        "hiragana": "manga",
+        "hiragana":  "マンガ",
         "type": "คำนาม (Noun)",
         "meaning": "หนังสือการ์ตูน",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "アニメ",
-        "hiragana": "anime",
+        "hiragana": "アニメ",
         "type": "คำนาม (Noun)",
         "meaning": "ภาพยนตร์การ์ตูน",
         "jlpt": "N5"
     },
     {
         "vocab": "えいが",
-        "hiragana": "eiga",
+        "hiragana": "えいが",
         "type": "คำนาม (Noun)",
         "meaning": "ภาพยนตร์",
         "jlpt": "N5"
     },
     {
         "vocab": "ゲーム",
-        "hiragana": "ge-mu",
+        "hiragana":  "ゲーム",
         "type": "คำนาม (Noun)",
         "meaning": "เกม",
         "jlpt": "N5"
     },
     {
         "vocab": "ざっし",
-        "hiragana": "zasshi",
+        "hiragana": "ざっし",
         "type": "คำนาม (Noun)",
         "meaning": "นิตยสาร",
         "jlpt": "N5"
     },
     {
         "vocab": "レポート",
-        "hiragana": "repo-to",
+        "hiragana": "レポート",
         "type": "คำนาม (Noun)",
         "meaning": "รายงาน",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "メール",
-        "hiragana": "me-ru",
+        "hiragana": "メール",
         "type": "คำนาม (Noun)",
         "meaning": "อีเมล",
         "jlpt": "N5"
     },
     {
         "vocab": "ふく",
-        "hiragana": "fuku",
+        "hiragana":  "ふく",
         "type": "คำนาม (Noun)",
         "meaning": "เสื้อผ้า",
         "jlpt": "N5"
     },
     {
         "vocab": "シャツ",
-        "hiragana": "shatsu",
+        "hiragana":  "シャツ",
         "type": "คำนาม (Noun)",
         "meaning": "เสื้อเชิ้ต",
         "jlpt": "N5"
     },
     {
         "vocab": "シャワー",
-        "hiragana": "syawa-",
+        "hiragana": "シャワー",
         "type": "คำนาม (Noun)",
         "meaning": "ฝักบัวสําหรับอาบน้ํา (Shower)",
         "jlpt": "N5"
     },
     {
         "vocab": "かばん",
-        "hiragana": "kaban",
+        "hiragana": "かばん",
         "type": "คำนาม (Noun)",
         "meaning": "กระเป๋า",
         "jlpt": "N5"
     },
     {
         "vocab": "ペン",
-        "hiragana": "pen",
+        "hiragana": "ペン",
         "type": "คำนาม (Noun)",
         "meaning": "ปากกา",
         "jlpt": "N5"
     },
     {
         "vocab": "けしゴム",
-        "hiragana": "keshigomu",
+        "hiragana":  "けしゴム",
         "type": "คำนาม (Noun)",
         "meaning": "ยางลบ",
         "jlpt": "N5"
     },
     {
         "vocab": "えんぴつ",
-        "hiragana": "enpitsu",
+        "hiragana": "えんぴつ",
         "type": "คำนาม (Noun)",
         "meaning": "ดินสอ",
         "jlpt": "N5"
     },
     {
         "vocab": "ノート",
-        "hiragana": "no-to",
+        "hiragana": "ノート",
         "type": "คำนาม (Noun)",
         "meaning": "สมุด",
         "jlpt": "N5"
     },
     {
         "vocab": "しょくどう",
-        "hiragana": "syokudou",
+        "hiragana": "しょくどう",
         "type": "คำนาม (Noun)",
         "meaning": "โรงอาหาร",
         "jlpt": "N5"
     },
     {
         "vocab": "きっさてん",
-        "hiragana": "kissaten",
+        "hiragana": "きっさてん",
         "type": "คำนาม (Noun)",
         "meaning": "ร้านกาแฟ",
         "jlpt": "N5"
     },
     {
         "vocab": "カフェ",
-        "hiragana": "kafe",
+        "hiragana": "カフェ",
         "type": "คำนาม (Noun)",
         "meaning": "ร้านคาเฟ่",
         "jlpt": "N5"
     },
     {
         "vocab": "レストラン",
-        "hiragana": "resutoran",
+        "hiragana": "レストラン",
         "type": "คำนาม (Noun)",
         "meaning": "ร้านอาหาร",
         "jlpt": "N5"
     },
     {
-        "vocab": "うち/いえ",
-        "hiragana": "uchi/ie",
+        "vocab": "うち",
+        "hiragana": "うち",
+        "type": "คำนาม (Noun)",
+        "meaning": "บ้าน",
+        "jlpt": "N5"
+    },
+    {
+        "vocab": "いえ",
+        "hiragana": "いえ",
         "type": "คำนาม (Noun)",
         "meaning": "บ้าน",
         "jlpt": "N5"
     },
     {
         "vocab": "へや",
-        "hiragana": "heya",
+        "hiragana": "へや",
         "type": "คำนาม (Noun)",
         "meaning": "ห้อง",
         "jlpt": "N5"
     },
     {
         "vocab": "きょうしつ",
-        "hiragana": "kyoushitsu",
+        "hiragana": "きょうしつ",
         "type": "คำนาม (Noun)",
         "meaning": "ห้องเรียน",
         "jlpt": "N5"
     },
     {
         "vocab": "デパート",
-        "hiragana": "depa-to",
+        "hiragana": "デパート",
         "type": "คำนาม (Noun)",
         "meaning": "ห้างสรรพสินค้า",
         "jlpt": "N5"
     },
     {
         "vocab": "スーパー",
-        "hiragana": "su-pa-",
+        "hiragana":  "スーパー",
         "type": "คำนาม (Noun)",
         "meaning": "ซูเปอร์มาร์เก็ต",
         "jlpt": "N5"
     },
     {
         "vocab": "だいがく",
-        "hiragana": "daigaku",
+        "hiragana": "だいがく",
         "type": "คำนาม (Noun)",
         "meaning": "มหาวิทยาลัย",
         "jlpt": "N5"
     },
     {
         "vocab": "えいがかん",
-        "hiragana": "eigakan",
+        "hiragana": "えいがかん",
         "type": "คำนาม (Noun)",
         "meaning": "โรงภาพยนตร์",
         "jlpt": "N5"
     },
     {
         "vocab": "ともだち",
-        "hiragana": "tomodachi",
+        "hiragana": "ともだち",
         "type": "คำนาม (Noun)",
         "meaning": "เพื่อน",
         "jlpt": "N5"
     },
     {
         "vocab": "かぞく",
-        "hiragana": "kazoku",
+        "hiragana": "かぞく",
         "type": "คำนาม (Noun)",
         "meaning": "ครอบครัว",
         "jlpt": "N5"
     },
     {
         "vocab": "こいびと",
-        "hiragana": "koubito",
+        "hiragana": "こいびと",
         "type": "คำนาม (Noun)",
         "meaning": "แฟน, คนรัก",
-        "jlpt": "N5"
+        "jlpt": "N3"
     },
     {
         "vocab": "＿と（人）",
-        "hiragana": "_to",
+        "hiragana": "＿と（人）",
         "type": "คำช่วย (Postpositional particle)",
         "meaning": "คำช่วย と  (คนとคำกริยา หมายถึง ทำกริยากับคนนั้น ๆ)        ",
         "jlpt": "N5"
     },
     {
         "vocab": "ひとりで",
-        "hiragana": "hitoride",
+        "hiragana": "ひとりで",
         "type": "Expressions (phrases, clauses, etc.)",
         "meaning": "คนเดียว",
         "jlpt": "N5"
     },
     {
         "vocab": "だれ",
-        "hiragana": "dare",
+        "hiragana": "だれ",
         "type": "คำแสดงคำถาม (Question word)",
         "meaning": "ใคร",
         "jlpt": "N5"
     },
     {
         "vocab": "すき",
-        "hiragana": "suki",
+        "hiragana": "すき",
         "type": "คำคุณศัพท์\n(な-Adjective)",
         "meaning": "ชอบ",
         "jlpt": "N5"
     },
     {
         "vocab": "ラーメン",
-        "hiragana": "ra-men",
+        "hiragana": "ラーメン",
         "type": "คำนาม (Noun)",
         "meaning": "ราเม็ง",
         "jlpt": "N5"
     },
     {
         "vocab": "アイスクリーム",
-        "hiragana": "aisukuri-mu",
+        "hiragana": "アイスクリーム",
         "type": "คำนาม (Noun)",
         "meaning": "ไอศกรีม",
         "jlpt": "N5"
     },
     {
         "vocab": "ピザ",
-        "hiragana": "piza",
+        "hiragana": "ピザ",
         "type": "คำนาม (Noun)",
         "meaning": "พิซซ่า",
         "jlpt": "N5"
     },
     {
         "vocab": "やきそば",
-        "hiragana": "yakisoba",
+        "hiragana": "やきそば",
         "type": "คำนาม (Noun)",
         "meaning": "ยากิโซบะ (บะหมี่ผัดสไตล์ญี่ปุ่น)        ",
         "jlpt": "N5"
     },
     {
         "vocab": "ガパオ",
-        "hiragana": "gapao",
+        "hiragana":  "ガパオ",
         "type": "คำนาม (Noun)",
         "meaning": "กะเพรา",
         "jlpt": "N5"
     },
     {
         "vocab": "カレーライス",
-        "hiragana": "kare-raisu",
+        "hiragana": "カレーライス",
         "type": "คำนาม (Noun)",
         "meaning": "ข้าวแกงกะหรี่",
         "jlpt": "N5"
     },
     {
         "vocab": "サッカー",
-        "hiragana": "sakka-",
+        "hiragana": "サッカー",
         "type": "คำนาม (Noun)",
         "meaning": "ฟุตบอล",
         "jlpt": "N5"
     },
     {
         "vocab": "バスケットボール",
-        "hiragana": "basukettobo-ru",
+        "hiragana":  "バスケットボール",
         "type": "คำนาม (Noun)",
         "meaning": "บาสเกตบอล",
         "jlpt": "N5"
     },
     {
         "vocab": "バドミントン",
-        "hiragana": "badominton",
+        "hiragana":  "バドミントン",
         "type": "คำนาม (Noun)",
         "meaning": "แบดมินตัน",
         "jlpt": "N5"
     },
     {
         "vocab": "えいが",
-        "hiragana": "eiga",
+        "hiragana": "えいが",
         "type": "คำนาม (Noun)",
         "meaning": "ภาพยนตร์",
         "jlpt": "N5"
     },
     {
         "vocab": "マンガ",
-        "hiragana": "manga",
+        "hiragana": "マンガ",
         "type": "คำนาม (Noun)",
         "meaning": "หนังสือการ์ตูน",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "アニメ",
-        "hiragana": "anime",
+        "hiragana":  "アニメ",
         "type": "คำนาม (Noun)",
         "meaning": "ภาพยนตร์การ์ตูน\t(animation)",
         "jlpt": "N5"
     },
     {
         "vocab": "ロック",
-        "hiragana": "rokku",
+        "hiragana":  "ロック",
         "type": "คำนาม (Noun)",
         "meaning": "เพลงร็อก",
         "jlpt": "N5"
     },
     {
         "vocab": "ポップス",
-        "hiragana": "poppusu",
+        "hiragana": "ポップス",
         "type": "คำนาม (Noun)",
         "meaning": "เพลงป๊อป",
         "jlpt": "N5"
     },
     {
         "vocab": "Jポップ",
-        "hiragana": "J-poppu",
+        "hiragana":  "Jポップ",
         "type": "คำนาม (Noun)",
         "meaning": "เพลงป๊อปญี่ปุ่น (J-POP)",
         "jlpt": "N5"
     },
     {
         "vocab": "にほんりょうり",
-        "hiragana": "nihonryouri",
+        "hiragana": "にほんりょうり",
         "type": "คำนาม (Noun)",
         "meaning": "อาหารญี่ปุ่น",
         "jlpt": "N5"
     },
     {
         "vocab": "タイりょうり",
-        "hiragana": "tairyouri",
+        "hiragana":  "タイりょうり",
         "type": "คำนาม (Noun)",
         "meaning": "อาหารไทย",
         "jlpt": "N5"
     },
     {
         "vocab": "パッタイ",
-        "hiragana": "pattai",
+        "hiragana": "パッタイ",
         "type": "คำนาม (Noun)",
         "meaning": "ผัดไทย",
         "jlpt": "N5"
     },
     {
         "vocab": "トムヤムクン",
-        "hiragana": "tomuyamukun",
+        "hiragana": "トムヤムクン",
         "type": "คำนาม (Noun)",
         "meaning": "ต้มยำกุ้ง",
         "jlpt": "N5"
     },
     {
         "vocab": "くだもの",
-        "hiragana": "kudamono",
+        "hiragana": "くだもの",
         "type": "คำนาม (Noun)",
         "meaning": "ผลไม้",
         "jlpt": "N5"
     },
     {
         "vocab": "すいか",
-        "hiragana": "suika",
+        "hiragana": "すいか",
         "type": "คำนาม (Noun)",
         "meaning": "แตงโม",
         "jlpt": "N5"
     },
     {
         "vocab": "おんがく",
-        "hiragana": "ongaku",
+        "hiragana": "おんがく",
         "type": "คำนาม (Noun)",
         "meaning": "เพลง",
         "jlpt": "N5"
     },
     {
         "vocab": "ロック",
-        "hiragana": "rokku",
+        "hiragana": "ロック",
         "type": "คำนาม (Noun)",
         "meaning": "เพลงร็อก",
         "jlpt": "N5"
     },
     {
         "vocab": "ポップス",
-        "hiragana": "poppusu",
+        "hiragana":  "ポップス",
         "type": "คำนาม (Noun)",
         "meaning": "เพลงป๊อป",
         "jlpt": "N5"
     },
     {
         "vocab": "スポーツ",
-        "hiragana": "supo-tsu",
+        "hiragana": "スポーツ",
         "type": "คำนาม (Noun)",
         "meaning": "กีฬา",
         "jlpt": "N5"
     },
     {
         "vocab": "バドミントン",
-        "hiragana": "badominton",
+        "hiragana": "バドミントン",
         "type": "คำนาม (Noun)",
         "meaning": "แบดมินตัน",
         "jlpt": "N5"
     },
     {
         "vocab": "バスケットボール",
-        "hiragana": "basukettobo-ru",
+        "hiragana":  "バスケットボール",
         "type": "คำนาม (Noun)",
         "meaning": "บาสเกตบอล",
         "jlpt": "N5"
     },
     {
         "vocab": "アニメ",
-        "hiragana": "anime",
+        "hiragana": "アニメ",
         "type": "คำนาม (Noun)",
         "meaning": "ภาพยนตร์การ์ตูน\t(animation)",
         "jlpt": "N5"
     },
     {
         "vocab": "マンガ",
-        "hiragana": "manga",
+        "hiragana": "マンガ",
         "type": "คำนาม (Noun)",
         "meaning": "หนังสือการ์ตูน",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "とても",
-        "hiragana": "totemo",
+        "hiragana":  "とても",
         "type": "คำวิเศษณ์ (Adverb)",
         "meaning": "มาก",
         "jlpt": "N5"
     },
     {
         "vocab": "あまり",
-        "hiragana": "amari",
+        "hiragana":  "あまり",
         "type": "คำวิเศษณ์ (Adverb)",
         "meaning": "ไม่ค่อยจะ...",
         "jlpt": "N5"
     },
     {
         "vocab": "ぜんぜん",
-        "hiragana": "zenzen",
+        "hiragana": "ぜんぜん",
         "type": "คำวิเศษณ์ (Adverb)",
         "meaning": "ไม่...เลย",
-        "jlpt": "N5"
+        "jlpt": "N3"
     },
     {
         "vocab": "ちょっと…",
-        "hiragana": "chotto",
+        "hiragana": "ちょっと…",
         "type": "คำวิเศษณ์ (Adverb)",
         "meaning": "การตอบปฏิเสธแบบอ้อม ๆ",
         "jlpt": "N5"
     },
     {
         "vocab": "いっしょに",
-        "hiragana": "issyoni",
+        "hiragana": "いっしょに",
         "type": "วลี (Phrase)",
         "meaning": "...ด้วยกัน",
         "jlpt": "N5"
     },
     {
         "vocab": "もう",
-        "hiragana": "mou",
+        "hiragana": "もう",
         "type": "คำวิเศษณ์ (Adverb)",
         "meaning": "แล้ว",
         "jlpt": "N5"
     },
     {
         "vocab": "まだ",
-        "hiragana": "mada",
+        "hiragana": "まだ",
         "type": "คำวิเศษณ์ (Adverb)",
         "meaning": "ยัง",
         "jlpt": "N5"
     },
     {
         "vocab": "ひるごはん",
-        "hiragana": "hirugohan",
+        "hiragana":  "ひるごはん",
         "type": "คำนาม (Noun)",
         "meaning": "อาหารกลางวัน",
         "jlpt": "N5"
     },
     {
         "vocab": "なつやすみ",
-        "hiragana": "natsuyasumi",
+        "hiragana":  "なつやすみ",
         "type": "คำนาม (Noun)",
         "meaning": "วันหยุดฤดูร้อน",
         "jlpt": "N5"
     },
     {
         "vocab": "すし",
-        "hiragana": "sushi",
+        "hiragana": "すし",
         "type": "คำนาม (Noun)",
         "meaning": "ซูชิ",
         "jlpt": "N5"
     },
     {
         "vocab": "ソムタム",
-        "hiragana": "somutamu",
+        "hiragana": "ソムタム",
         "type": "คำนาม (Noun)",
         "meaning": "ส้มตำ",
         "jlpt": "N5"
     },
     {
         "vocab": "ソンクラーン",
-        "hiragana": "nankura-n",
+        "hiragana": "ソンクラーン",
         "type": "คำนาม (Noun)",
         "meaning": "เทศกาลสงกรานต์",
         "jlpt": "N5"
     },
     {
         "vocab": "プーケット",
-        "hiragana": "pu-ketto",
+        "hiragana":  "プーケット",
         "type": "คำนาม (Noun)",
         "meaning": "จังหวัดภูเก็ต",
         "jlpt": "N5"
     },
     {
         "vocab": "うみ",
-        "hiragana": "umi",
+        "hiragana": "うみ",
         "type": "คำนาม (Noun)",
         "meaning": "ทะเล",
         "jlpt": "N5"
     },
     {
         "vocab": "べんきょう",
-        "hiragana": "benkyou",
+        "hiragana": "べんきょう",
         "type": "คำนาม (Noun)",
         "meaning": "การเรียน",
         "jlpt": "N5"
     },
-    {
-        "vocab": "やすみ",
-        "hiragana": "yasumi",
+    { 
+        "vocab":"やすみ",
+        "hiragana": "やすみ",
         "type": "คำนาม (Noun)",
         "meaning": "วันหยุด, การหยุดพักผ่อน",
         "jlpt": "N5"
     },
     {
         "vocab": "おいしい",
-        "hiragana": "oishii",
+        "hiragana":  "おいしい",
         "type": "คำคุณศัพท์\n(い-Adjective)",
         "meaning": "อร่อย",
         "jlpt": "N5"
     },
     {
         "vocab": "からい",
-        "hiragana": "karai",
+        "hiragana": "からい",
         "type": "คำคุณศัพท์\n(い-Adjective)",
         "meaning": "เผ็ด",
         "jlpt": "N5"
     },
     {
         "vocab": "あまい",
-        "hiragana": "amai",
+        "hiragana": "あまい",
         "type": "คำคุณศัพท์\n(い-Adjective)",
         "meaning": "หวาน",
         "jlpt": "N5"
     },
     {
         "vocab": "むずかしい",
-        "hiragana": "muzukashii",
+        "hiragana":  "むずかしい",
         "type": "คำคุณศัพท์\n(い-Adjective)",
         "meaning": "ยาก",
         "jlpt": "N5"
     },
     {
         "vocab": "やさしい",
-        "hiragana": "yasashii",
+        "hiragana": "やさしい",
         "type": "คำคุณศัพท์\n(い-Adjective)",
         "meaning": "ง่าย",
         "jlpt": "N5"
     },
     {
         "vocab": "かんたん",
-        "hiragana": "kantan",
+        "hiragana":  "かんたん",
         "type": "คำคุณศัพท์\n(な-Adjective)",
         "meaning": "ง่าย",
         "jlpt": "N5"
     },
     {
         "vocab": "いい",
-        "hiragana": "ii",
+        "hiragana":  "いい",
         "type": "คำคุณศัพท์\n(い-Adjective)",
         "meaning": "ดี",
         "jlpt": "N5"
     },
     {
         "vocab": "おおきい",
-        "hiragana": "ookii",
+        "hiragana": "おおきい",
         "type": "คำคุณศัพท์\n(い-Adjective)",
         "meaning": "ใหญ่",
         "jlpt": "N5"
     },
     {
         "vocab": "ちいさい",
-        "hiragana": "chiisai",
+        "hiragana": "ちいさい",
         "type": "คำคุณศัพท์\n(い-Adjective)",
         "meaning": "เล็ก",
         "jlpt": "N5"
     },
     {
         "vocab": "おおい",
-        "hiragana": "ooi",
+        "hiragana": "おおい",
         "type": "คำคุณศัพท์\n(い-Adjective)",
         "meaning": "มาก",
         "jlpt": "N5"
     },
     {
         "vocab": "すくない",
-        "hiragana": "sukunai",
+        "hiragana": "すくない",
         "type": "คำคุณศัพท์\n(い-Adjective)",
         "meaning": "น้อย",
         "jlpt": "N5"
     },
     {
         "vocab": "たかい",
-        "hiragana": "takai",
+        "hiragana": "たかい",
         "type": "คำคุณศัพท์\n(い-Adjective)",
         "meaning": "แพง, สูง",
         "jlpt": "N5"
     },
     {
         "vocab": "やすい",
-        "hiragana": "yasui",
+        "hiragana":  "やすい",
         "type": "คำคุณศัพท์\n(い-Adjective)",
         "meaning": "ถูก",
         "jlpt": "N5"
     },
     {
         "vocab": "ちかい",
-        "hiragana": "chikai",
+        "hiragana": "ちかい",
         "type": "คำคุณศัพท์\n(い-Adjective)",
         "meaning": "ใกล้",
         "jlpt": "N5"
     },
     {
         "vocab": "とおい",
-        "hiragana": "tooi",
+        "hiragana": "とおい",
         "type": "คำคุณศัพท์\n(い-Adjective)",
         "meaning": "ไกล",
         "jlpt": "N5"
     },
     {
         "vocab": "はやい",
-        "hiragana": "hayai",
+        "hiragana": "はやい",
         "type": "คำคุณศัพท์\n(い-Adjective)",
         "meaning": "เร็ว",
         "jlpt": "N5"
     },
     {
         "vocab": "おそい",
-        "hiragana": "osoi",
+        "hiragana": "おそい",
         "type": "คำคุณศัพท์\n(い-Adjective)",
         "meaning": "ช้า",
         "jlpt": "N5"
     },
     {
         "vocab": "あたらしい",
-        "hiragana": "atarashii",
+        "hiragana":  "あたらしい",
         "type": "คำคุณศัพท์\n(い-Adjective)",
         "meaning": "ใหม่",
         "jlpt": "N5"
     },
     {
         "vocab": "ふるい",
-        "hiragana": "furui",
+        "hiragana": "ふるい",
         "type": "คำคุณศัพท์\n(い-Adjective)",
         "meaning": "เก่า",
         "jlpt": "N5"
     },
     {
         "vocab": "ひま",
-        "hiragana": "hima",
+        "hiragana":  "ひま",
         "type": "คำคุณศัพท์\n(な-Adjective)",
         "meaning": "ว่าง",
         "jlpt": "N5"
     },
     {
         "vocab": "いそがしい",
-        "hiragana": "isogashii",
+        "hiragana":  "いそがしい",
         "type": "คำคุณศัพท์\n(い-Adjective)",
         "meaning": "ยุ่ง",
         "jlpt": "N5"
     },
     {
         "vocab": "じょうず",
-        "hiragana": "jyouzu",
+        "hiragana": "じょうず",
         "type": "คำคุณศัพท์\n(な-Adjective)",
         "meaning": "เก่ง",
         "jlpt": "N5"
     },
     {
         "vocab": "へた",
-        "hiragana": "heta",
+        "hiragana":  "へた",
         "type": "คำคุณศัพท์\n(な-Adjective)",
         "meaning": "ไม่เก่ง",
         "jlpt": "N5"
     },
     {
         "vocab": "しずか",
-        "hiragana": "shizuka",
+        "hiragana":  "しずか",
         "type": "คำคุณศัพท์\n(な-Adjective)",
         "meaning": "เงียบ, สงบ",
         "jlpt": "N5"
     },
     {
         "vocab": "にぎやか",
-        "hiragana": "nigiyaka",
+        "hiragana": "にぎやか",
         "type": "คำคุณศัพท์\n(な-Adjective)",
         "meaning": "ครึกครื้น",
         "jlpt": "N5"
     },
     {
         "vocab": "あつい",
-        "hiragana": "atsui",
+        "hiragana": "あつい",
         "type": "คำคุณศัพท์\n(い-Adjective)",
         "meaning": "ร้อน",
         "jlpt": "N5"
     },
     {
         "vocab": "さむい",
-        "hiragana": "samui",
+        "hiragana":  "さむい",
         "type": "คำคุณศัพท์\n(い-Adjective)",
         "meaning": "หนาว",
         "jlpt": "N5"
     },
     {
         "vocab": "きれい",
-        "hiragana": "kirei",
+        "hiragana": "きれい",
         "type": "คำคุณศัพท์\n(な-Adjective)",
         "meaning": "สวย, สะอาด",
         "jlpt": "N5"
     },
     {
         "vocab": "ハンサム",
-        "hiragana": "hansamu",
+        "hiragana": "ハンサム",
         "type": "คำคุณศัพท์\n(な-Adjective)",
         "meaning": "หล่อ",
-        "jlpt": "N5"
+        "jlpt": "N3"
     },
     {
         "vocab": "やさしい",
-        "hiragana": "yasashii",
+        "hiragana": "やさしい",
         "type": "คำคุณศัพท์\n(い-Adjective)",
         "meaning": "ใจดี",
         "jlpt": "N5"
     },
     {
         "vocab": "しんせつ",
-        "hiragana": "shinsetsu",
+        "hiragana": "しんせつ",
         "type": "คำคุณศัพท์\n(な-Adjective)",
         "meaning": "ใจดี, มีน้ำใจ",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "ゆうめい",
-        "hiragana": "yuumei",
+        "hiragana": "ゆうめい",
         "type": "คำคุณศัพท์\n(な-Adjective)",
         "meaning": "มีชื่อเสียง",
         "jlpt": "N5"
     },
     {
         "vocab": "げんき",
-        "hiragana": "genki",
+        "hiragana": "げんき",
         "type": "คำคุณศัพท์\n(な-Adjective)",
         "meaning": "แข็งแรง, สบายดี",
         "jlpt": "N5"
     },
     {
         "vocab": "たのしい",
-        "hiragana": "tanoshii",
+        "hiragana": "たのしい",
         "type": "คำคุณศัพท์\n(い-Adjective)",
         "meaning": "สนุก",
         "jlpt": "N5"
     },
     {
         "vocab": "おもしろい",
-        "hiragana": "omoshiroi",
+        "hiragana": "おもしろい",
         "type": "คำคุณศัพท์\n(い-Adjective)",
         "meaning": "ตลก, น่าสนใจ",
         "jlpt": "N5"

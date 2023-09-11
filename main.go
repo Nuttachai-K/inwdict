@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	//Get wordlists from excel files and turn them into json files
 	/*utils.CreateExcel("excel/JPN101_Wordlist.xlsx", "L1-L10 Vocabulary", 2, 4, 3, 5, "json/jpn101.json")
 	utils.CreateExcel("excel/JPN102_Wordlist.xlsx", "L11-L18 Vocabulary", 2, 3, 4, 5, "json/jpn102.json")
 	utils.CreateExcel("excel/JPN201_Wordlist.xlsx", "L19-L26 Vocabulary", 2, 3, 4, 5, "json/jpn201.json")
@@ -18,15 +19,10 @@ func main() {
 	// 	fmt.Print(err)
 	// }
 
-	/*word, err := queries.SelectWord("ちかい")
-	if err != nil {
-		fmt.Print(err)
-	}
-	fmt.Printf("%+v", word)*/
-
 	router := gin.Default()
 
-	router.GET("/dict", handlers.GetHandler)
+	router.GET("/dict", handlers.GetVocab)
+	router.GET("/dict/futsukei", handlers.GetFutsukei)
 	router.Run(":8080")
 
 }
