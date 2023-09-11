@@ -22,7 +22,6 @@ func main() {
 	router := gin.Default()
 
 	router.GET("/", handlers.GetVocab)
-	router.GET("/dict", handlers.GetDictForm)
 	router.Run(":8080")
 
 }

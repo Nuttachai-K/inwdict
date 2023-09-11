@@ -2,12 +2,12 @@ package utils
 
 import "testing"
 
-type testFutsukei struct {
+type testDictForm struct {
 	arg1   WordList
 	result string
 }
 
-var testWordLists = []testFutsukei{
+var testDictForms = []testDictForm{
 	{WordList{
 		Vocab: "します",
 		Type:  "คำกริยา (Verb 3)",
@@ -41,11 +41,15 @@ var testWordLists = []testFutsukei{
 		Vocab: "みます",
 		Type:  "คำกริยา (Verb 2)",
 	}, "みる"},
+	{WordList{
+		Vocab: "きます",
+		Type:  "คำกริยา (Verb 2)",
+	}, "きる"},
 }
 
 func TestToDictForm(t *testing.T) {
 
-	for _, testWordList := range testWordLists {
+	for _, testWordList := range testDictForms {
 		// Call the function being tested
 		result := testWordList.arg1.ToDictForm()
 

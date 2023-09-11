@@ -14,21 +14,9 @@ func GetVocab(ctx *gin.Context) {
 	if err != nil {
 		fmt.Println(err)
 	}
-	for _, v := range wordLists {
-		fmt.Println(v.Meaning)
+	for i := range wordLists {
+		wordLists[i].Forms.Dict = wordLists[i].ToDictForm()
+		wordLists[i].Forms.Ta = wordLists[i].ToTaForm()
 	}
 	ctx.JSON(http.StatusOK, wordLists)
-}
-
-// Handler of GET request to
-func GetDictForm(ctx *gin.Context) {
-	var dictForms []string
-	wordLists, err := queries.SelectWord(ctx.Query("vocab"))
-	if err != nil {
-		fmt.Println(err)
-	}
-	for _, v := range wordLists {
-		dictForms = append(dictForms, v.ToDictForm())
-	}
-	ctx.JSON(http.StatusOK, dictForms)
 }
