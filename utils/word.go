@@ -87,8 +87,8 @@ func (w WordList) ToDictForm() string {
 // ToTaForm change hiragana to ta form according to verb type
 func (w WordList) ToTaForm() string {
 	var ta = ""
-	fmt.Printf("hiragana : %s len : %v\n", w.Vocab, len(w.Vocab))
-	if w.Type == "คำกริยา (Verb 1)" && w.Hiragana == "いきます" {
+	fmt.Printf("hiragana : %s len : %v Is ikimasu : %v \n", w.Vocab, len(w.Vocab), w.Hiragana == "いきます")
+	if w.Type == "คำกริยา (Verb 1)" && w.Vocab == "いきます" {
 		ta = "いった"
 		return ta
 	}
@@ -260,6 +260,6 @@ func (w WordList) ToNaiForm() string {
 			nai = fmt.Sprintf("%sこない", w.Vocab[:len(w.Vocab)-9])
 		}
 	}
-	fmt.Printf("te form : %s\n\n", nai)
+	fmt.Printf("Nai form : %s\n\n", nai)
 	return nai
 }
