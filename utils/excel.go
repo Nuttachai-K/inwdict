@@ -6,7 +6,9 @@ import (
 	"github.com/xuri/excelize/v2"
 )
 
-func CreateExcel(fileName string, sheet string, cellNum1, cellNum2, cellNum3, cellNum4 int, jsonFile string) {
+// CreateExcel recieve fileName, sheet, cellNum1, cellNum2, cellNum3, cellNum4, jsonFile as parameters
+// then use these parameter to get the specific information from excel file and add it to json file
+func CreateJson(fileName string, sheet string, cellNum1, cellNum2, cellNum3, cellNum4 int, jsonFile string) {
 	//Open spreadsheet
 	f, err := excelize.OpenFile(fileName)
 	if err != nil {
