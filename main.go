@@ -14,15 +14,15 @@ func main() {
 	utils.CreateExcel("excel/JPN202_Wordlist.xlsx", "L27-L32 Vocabulary", 2, 3, 4, 5, "json/jpn202.json")
 	utils.CreateExcel("excel/JPN301_Wordlist.xlsx", "L33-L38 Vocabulary", 2, 3, 4, 5, "json/jpn301.json")*/
 	// database.CreateTable()
-	// err := queries.InsertJson("jpn301")
+	// err := queries.InsertJson("jpn101")
 	// if err != nil {
 	// 	fmt.Print(err)
 	// }
 
 	router := gin.Default()
 
-	router.GET("/dict", handlers.GetVocab)
-	router.GET("/dict/futsukei", handlers.GetFutsukei)
+	router.GET("/", handlers.GetVocab)
+	router.GET("/dict", handlers.GetDictForm)
 	router.Run(":8080")
 
 }

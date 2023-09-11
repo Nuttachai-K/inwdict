@@ -36,18 +36,18 @@ var testWordLists = []testFutsukei{
 	{WordList{
 		Vocab: "きます",
 		Type:  "คำกริยา (Verb 3)",
-	}, "こない"},
+	}, "くる"},
 	{WordList{
 		Vocab: "みます",
 		Type:  "คำกริยา (Verb 2)",
 	}, "みる"},
 }
 
-func TestToFutsukei(t *testing.T) {
+func TestToDictForm(t *testing.T) {
 
 	for _, testWordList := range testWordLists {
 		// Call the function being tested
-		result := testWordList.arg1.ToFutsukei()
+		result := testWordList.arg1.ToDictForm()
 
 		// Define the expected result
 		expected := testWordList.result

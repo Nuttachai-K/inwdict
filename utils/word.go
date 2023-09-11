@@ -14,13 +14,15 @@ type WordList struct {
 	Jlpt     string `json:"jlpt"`
 }
 
+// Recieve pointer of slice of WordList and encoding it to json file
 func wordListToJson(sliceWordList *[]WordList, jsonFile string) {
 	file, _ := json.Marshal(sliceWordList)
 	_ = os.WriteFile(jsonFile, file, 0644)
 }
 
-func (w WordList) ToFutsukei() string {
-	var futsuke = ""
+// Get word type from w and change its form to dict form according to its type
+func (w WordList) ToDictForm() string {
+	var dict = ""
 	fmt.Printf("hiragana : %s len : %v\n", w.Vocab, len(w.Vocab))
 	last3char := w.Vocab[len(w.Vocab)-9:]
 	fmt.Printf("Last 3 Character : %s\n", last3char)
@@ -28,45 +30,45 @@ func (w WordList) ToFutsukei() string {
 
 		switch last3char {
 		case "います":
-			futsuke = fmt.Sprintf("%sう", w.Vocab[:len(w.Vocab)-9])
+			dict = fmt.Sprintf("%sう", w.Vocab[:len(w.Vocab)-9])
 
 		case "します":
-			futsuke = fmt.Sprintf("%sす", w.Vocab[:len(w.Vocab)-9])
+			dict = fmt.Sprintf("%sす", w.Vocab[:len(w.Vocab)-9])
 
 		case "きます":
-			futsuke = fmt.Sprintf("%sく", w.Vocab[:len(w.Vocab)-9])
+			dict = fmt.Sprintf("%sく", w.Vocab[:len(w.Vocab)-9])
 
 		case "ぎます":
-			futsuke = fmt.Sprintf("%sぐ", w.Vocab[:len(w.Vocab)-9])
+			dict = fmt.Sprintf("%sぐ", w.Vocab[:len(w.Vocab)-9])
 
 		case "みます":
-			futsuke = fmt.Sprintf("%sむ", w.Vocab[:len(w.Vocab)-9])
+			dict = fmt.Sprintf("%sむ", w.Vocab[:len(w.Vocab)-9])
 
 		case "びます":
-			futsuke = fmt.Sprintf("%sぶ", w.Vocab[:len(w.Vocab)-9])
+			dict = fmt.Sprintf("%sぶ", w.Vocab[:len(w.Vocab)-9])
 
 		case "ちます":
-			futsuke = fmt.Sprintf("%sつ", w.Vocab[:len(w.Vocab)-9])
+			dict = fmt.Sprintf("%sつ", w.Vocab[:len(w.Vocab)-9])
 
 		case "ります":
-			futsuke = fmt.Sprintf("%sる", w.Vocab[:len(w.Vocab)-9])
+			dict = fmt.Sprintf("%sる", w.Vocab[:len(w.Vocab)-9])
 
 		default:
-			futsuke = ""
+			dict = ""
 		}
 
 	} else if w.Type == "คำกริยา (Verb 2)" {
 
-		futsuke = fmt.Sprintf("%sる", w.Vocab[:len(w.Vocab)-6])
+		dict = fmt.Sprintf("%sる", w.Vocab[:len(w.Vocab)-6])
 
 	} else if w.Type == "คำกริยา (Verb 3)" {
 
 		if last3char == "します" {
-			futsuke = fmt.Sprintf("%sする", w.Vocab[:len(w.Vocab)-9])
+			dict = fmt.Sprintf("%sする", w.Vocab[:len(w.Vocab)-9])
 		} else if last3char == "きます" {
-			futsuke = fmt.Sprintf("%sこない", w.Vocab[:len(w.Vocab)-9])
+			dict = fmt.Sprintf("%sくる", w.Vocab[:len(w.Vocab)-9])
 		}
 	}
-	fmt.Printf("futsukei : %s\n\n", futsuke)
-	return futsuke
+	fmt.Printf("futsukei : %s\n\n", dict)
+	return dict
 }

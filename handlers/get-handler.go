@@ -20,14 +20,15 @@ func GetVocab(ctx *gin.Context) {
 	ctx.JSON(http.StatusOK, wordLists)
 }
 
-func GetFutsukei(ctx *gin.Context) {
-	var futsukeis []string
+// Handler of GET request to
+func GetDictForm(ctx *gin.Context) {
+	var dictForms []string
 	wordLists, err := queries.SelectWord(ctx.Query("vocab"))
 	if err != nil {
 		fmt.Println(err)
 	}
 	for _, v := range wordLists {
-		futsukeis = append(futsukeis, v.ToFutsukei())
+		dictForms = append(dictForms, v.ToDictForm())
 	}
-	ctx.JSON(http.StatusOK, futsukeis)
+	ctx.JSON(http.StatusOK, dictForms)
 }
