@@ -3,32 +3,32 @@ package utils
 import "testing"
 
 type testForm struct {
-	arg1   WordList
+	arg1   Word
 	result string
 }
 
 var testDictForms = []testForm{
-	{WordList{
+	{Word{
 		Vocab: "写します",
 		Type:  "คำกริยา (Verb 1)",
 	}, "写す"},
-	{WordList{
+	{Word{
 		Vocab: "止まります",
 		Type:  "คำกริยา (Verb 1)",
 	}, "止まる"},
-	{WordList{
+	{Word{
 		Vocab: "みます",
 		Type:  "คำกริยา (Verb 2)",
 	}, "みる"},
-	{WordList{
+	{Word{
 		Vocab: "きます",
 		Type:  "คำกริยา (Verb 2)",
 	}, "きる"},
-	{WordList{
+	{Word{
 		Vocab: "します",
 		Type:  "คำกริยา (Verb 3)",
 	}, "する"},
-	{WordList{
+	{Word{
 		Vocab: "きます",
 		Type:  "คำกริยา (Verb 3)",
 	}, "くる"},
@@ -52,27 +52,27 @@ func TestToDictForm(t *testing.T) {
 }
 
 var testTaForms = []testForm{
-	{WordList{
+	{Word{
 		Vocab: "写します",
 		Type:  "คำกริยา (Verb 1)",
 	}, "写した"},
-	{WordList{
+	{Word{
 		Vocab: "いきます",
 		Type:  "คำกริยา (Verb 1)",
 	}, "いった"},
-	{WordList{
+	{Word{
 		Vocab: "みます",
 		Type:  "คำกริยา (Verb 2)",
 	}, "みた"},
-	{WordList{
+	{Word{
 		Vocab: "きます",
 		Type:  "คำกริยา (Verb 2)",
 	}, "きた"},
-	{WordList{
+	{Word{
 		Vocab: "します",
 		Type:  "คำกริยา (Verb 3)",
 	}, "した"},
-	{WordList{
+	{Word{
 		Vocab: "きます",
 		Type:  "คำกริยา (Verb 3)",
 	}, "きた"},
@@ -96,27 +96,27 @@ func TestToTaForm(t *testing.T) {
 }
 
 var testTeForms = []testForm{
-	{WordList{
+	{Word{
 		Vocab: "写します",
 		Type:  "คำกริยา (Verb 1)",
 	}, "写して"},
-	{WordList{
+	{Word{
 		Vocab: "いきます",
 		Type:  "คำกริยา (Verb 1)",
 	}, "いって"},
-	{WordList{
+	{Word{
 		Vocab: "みます",
 		Type:  "คำกริยา (Verb 2)",
 	}, "みて"},
-	{WordList{
+	{Word{
 		Vocab: "きます",
 		Type:  "คำกริยา (Verb 2)",
 	}, "きて"},
-	{WordList{
+	{Word{
 		Vocab: "します",
 		Type:  "คำกริยา (Verb 3)",
 	}, "して"},
-	{WordList{
+	{Word{
 		Vocab: "きます",
 		Type:  "คำกริยา (Verb 3)",
 	}, "きて"},
@@ -140,27 +140,27 @@ func TestToTeForm(t *testing.T) {
 }
 
 var testNaiForms = []testForm{
-	{WordList{
+	{Word{
 		Vocab: "写します",
 		Type:  "คำกริยา (Verb 1)",
 	}, "写さない"},
-	{WordList{
+	{Word{
 		Vocab: "あります",
 		Type:  "คำกริยา (Verb 1)",
 	}, "ない"},
-	{WordList{
+	{Word{
 		Vocab: "みます",
 		Type:  "คำกริยา (Verb 2)",
 	}, "みない"},
-	{WordList{
+	{Word{
 		Vocab: "きます",
 		Type:  "คำกริยา (Verb 2)",
 	}, "きない"},
-	{WordList{
+	{Word{
 		Vocab: "します",
 		Type:  "คำกริยา (Verb 3)",
 	}, "しない"},
-	{WordList{
+	{Word{
 		Vocab: "きます",
 		Type:  "คำกริยา (Verb 3)",
 	}, "こない"},

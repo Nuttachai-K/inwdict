@@ -6,7 +6,7 @@ import (
 	"inwdic/utils"
 )
 
-func SelectWord(vocab string) ([]utils.WordList, error) {
+func SelectWord(vocab string) ([]utils.Word, error) {
 	db := database.ConnectDatabase()
 	defer db.Close()
 	selectWord := fmt.Sprintf(`SELECT * FROM wordlists WHERE vocab = '%s' ;`, vocab)
@@ -15,10 +15,10 @@ func SelectWord(vocab string) ([]utils.WordList, error) {
 		fmt.Println(err)
 	}
 
-	var wordList []utils.WordList
+	var wordList []utils.Word
 
 	for rows.Next() {
-		var word utils.WordList
+		var word utils.Word
 		var ID int
 		if err := rows.Scan(&ID, &word.Vocab, &word.Hiragana,
 			&word.Type, &word.Meaning, &word.Jlpt); err != nil {
@@ -38,7 +38,7 @@ func SelectWord(vocab string) ([]utils.WordList, error) {
 		}
 
 		for rows.Next() {
-			var word utils.WordList
+			var word utils.Word
 			var ID int
 			if err := rows.Scan(&ID, &word.Vocab, &word.Hiragana,
 				&word.Type, &word.Meaning, &word.Jlpt); err != nil {

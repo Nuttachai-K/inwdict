@@ -27,10 +27,10 @@ func CreateJson(fileName string, sheet string, cellNum1, cellNum2, cellNum3, cel
 		fmt.Println(err)
 		return
 	}
-	var sliceWordList []WordList
+	var sliceWordList []Word
 	//Loop through all rows
 	for ix, row := range rows {
-		wordList := WordList{}
+		wordList := Word{}
 
 		for iy, colCell := range row {
 			if ix >= 2 {
