@@ -23,7 +23,7 @@ func InsertJson(jpn string) error {
 
 	byteValue, _ := io.ReadAll(jsonFile)
 
-	var data []utils.WordList
+	var data []utils.Word
 
 	if err := json.Unmarshal(byteValue, &data); err != nil {
 		return err

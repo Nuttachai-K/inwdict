@@ -1990,14 +1990,14 @@
     {
         "vocab": "たべます",
         "hiragana": "たべます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 2)",
         "meaning": "กิน",
         "jlpt": "N5"
     },
     {
         "vocab": "のみます",
         "hiragana": "のみます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "ดื่ม",
         "jlpt": "N5"
     },

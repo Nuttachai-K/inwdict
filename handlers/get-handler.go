@@ -17,11 +17,14 @@ func GetVocab(ctx *gin.Context) {
 	if err != nil {
 		fmt.Println(err)
 	}
-	for i := range wordLists {
-		wordLists[i].Forms.Dict = wordLists[i].ToDictForm()
-		wordLists[i].Forms.Ta = wordLists[i].ToTaForm()
-		wordLists[i].Forms.Te = wordLists[i].ToTeForm()
-		wordLists[i].Forms.Nai = wordLists[i].ToNaiForm()
+	for i, v := range wordLists {
+		if v.Type == "คำกริยา (Verb 1)" || v.Type == "คำกริยา (Verb 2)" || v.Type == "คำกริยา (Verb 3)" {
+			wordLists[i].Forms.Dict = wordLists[i].ToDictForm()
+			wordLists[i].Forms.Ta = wordLists[i].ToTaForm()
+			wordLists[i].Forms.Te = wordLists[i].ToTeForm()
+			wordLists[i].Forms.Nai = wordLists[i].ToNaiForm()
+		}
+
 	}
 	ctx.JSON(http.StatusOK, wordLists)
 }

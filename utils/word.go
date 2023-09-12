@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-type WordList struct {
+type Word struct {
 	Vocab    string `json:"vocab"`
 	Hiragana string `json:"hiragana"`
 	Type     string `json:"type"`
@@ -23,13 +23,13 @@ type Form struct {
 }
 
 // Recieve pointer of slice of WordList and encoding it to json file
-func wordListToJson(sliceWordList *[]WordList, jsonFile string) {
+func wordListToJson(sliceWordList *[]Word, jsonFile string) {
 	file, _ := json.Marshal(sliceWordList)
 	_ = os.WriteFile(jsonFile, file, 0644)
 }
 
 // ToDictForm change hiragana to dict form according to verb type
-func (w WordList) ToDictForm() string {
+func (w Word) ToDictForm() string {
 	var dict = ""
 	fmt.Printf("hiragana : %s len : %v\n", w.Vocab, len(w.Vocab))
 	last3char := w.Vocab[len(w.Vocab)-9:]
@@ -85,7 +85,7 @@ func (w WordList) ToDictForm() string {
 }
 
 // ToTaForm change hiragana to ta form according to verb type
-func (w WordList) ToTaForm() string {
+func (w Word) ToTaForm() string {
 	var ta = ""
 	fmt.Printf("hiragana : %s len : %v Is ikimasu : %v \n", w.Vocab, len(w.Vocab), w.Hiragana == "いきます")
 	if w.Type == "คำกริยา (Verb 1)" && w.Vocab == "いきます" {
@@ -145,7 +145,7 @@ func (w WordList) ToTaForm() string {
 }
 
 // ToTeForm change hiragana to te form according to verb type
-func (w WordList) ToTeForm() string {
+func (w Word) ToTeForm() string {
 	var te = ""
 	fmt.Printf("hiragana : %s len : %v word type : %s\n ", w.Vocab, len(w.Vocab), w.Type)
 	if w.Type == "คำกริยา (Verb 1)" && w.Vocab == "いきます" {
@@ -205,7 +205,7 @@ func (w WordList) ToTeForm() string {
 }
 
 // ToNaiForm change hiragana to nai form according to verb type
-func (w WordList) ToNaiForm() string {
+func (w Word) ToNaiForm() string {
 	var nai = ""
 	fmt.Printf("hiragana : %s len : %v word type : %s\n ", w.Vocab, len(w.Vocab), w.Type)
 	if w.Type == "คำกริยา (Verb 1)" && w.Vocab == "あります" {
