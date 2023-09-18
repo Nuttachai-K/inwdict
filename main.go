@@ -20,7 +20,8 @@ func main() {
 
 	router := gin.Default()
 
-	router.GET("/", handlers.GetVocab)
+	router.GET("/", handlers.GetWord)
+	router.GET("/wordlist", handlers.GetWordList)
 	router.Run(":8080")
 
 }
