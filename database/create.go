@@ -17,7 +17,7 @@ func CreateDatabase(db *sql.DB) {
 func CreateTable() {
 	db := ConnectDatabase()
 	defer db.Close()
-	createTable := `CREATE TABLE wordlists (
+	createTable := `CREATE TABLE dict (
 		id SERIAL PRIMARY KEY,
 		vocab VARCHAR(50),
 		hiragana VARCHAR(50),

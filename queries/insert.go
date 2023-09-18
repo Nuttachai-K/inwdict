@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"inwdic/database"
-	"inwdic/utils"
+	"inwdic/dict"
 	"io"
 	"os"
 )
@@ -23,14 +23,14 @@ func InsertJson(jpn string) error {
 
 	byteValue, _ := io.ReadAll(jsonFile)
 
-	var data []utils.Word
+	var data []dict.Word
 
 	if err := json.Unmarshal(byteValue, &data); err != nil {
 		return err
 	}
 
 	for _, word := range data {
-		insertJson := fmt.Sprintf(`INSERT INTO wordlists (vocab,hiragana,type,meaning,jlpt) VALUES ('%s','%s','%s','%s','%s')`, word.Vocab, word.Hiragana, word.Type, word.Meaning, word.Jlpt)
+		insertJson := fmt.Sprintf(`INSERT INTO dict (vocab,hiragana,type,meaning,jlpt) VALUES ('%s','%s','%s','%s','%s')`, word.Vocab, word.Hiragana, word.Type, word.Meaning, word.Jlpt)
 		_, err = db.Exec(insertJson)
 		if err != nil {
 			return err
