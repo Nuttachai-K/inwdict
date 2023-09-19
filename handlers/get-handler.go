@@ -30,7 +30,7 @@ func GetWord(ctx *gin.Context) {
 }
 
 func GetWordList(ctx *gin.Context) {
-	wordLists, err := queries.SelectWordList(ctx.Query("jlpt"), ctx.Query("limit"))
+	wordLists, err := queries.SelectWordList(ctx.Query("jlpt"), ctx.Query("row"))
 	if err != nil {
 		fmt.Println(err)
 	}

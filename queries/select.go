@@ -34,15 +34,15 @@ func SelectWord(vocab string) ([]dict.Word, error) {
 	return words, nil
 }
 
-func SelectWordList(jlpt string, limitString string) ([]dict.Word, error) {
+func SelectWordList(jlpt string, rowString string) ([]dict.Word, error) {
 	db := database.ConnectDatabase()
 	defer db.Close()
-	limit, err := strconv.Atoi(limitString)
+	row, err := strconv.Atoi(rowString)
 	if err != nil {
 		return nil, err
 	}
-	fmt.Printf("limit : %v type : %T  limitString : %v type : %T\n", limit, limit, limitString, limitString)
-	selectWord := fmt.Sprintf(`SELECT * FROM dict WHERE jlpt = '%s' ORDER BY random() LIMIT %v ;`, jlpt, limit)
+	fmt.Printf("limit : %v type : %T  limitString : %v type : %T\n", row, row, rowString, rowString)
+	selectWord := fmt.Sprintf(`SELECT * FROM dict WHERE jlpt = '%s' ORDER BY random() LIMIT %v ;`, jlpt, row)
 	rows, err := db.Query(selectWord)
 	if err != nil {
 		return nil, err
