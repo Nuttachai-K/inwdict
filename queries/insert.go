@@ -4,12 +4,12 @@ import (
 	"encoding/json"
 	"fmt"
 	"inwdic/database"
-	"inwdic/dict"
+	"inwdic/utils"
 	"io"
 	"os"
 )
 
-func InsertJson(jpn string) error {
+func InsertJsonWordlist(jpn string) error {
 	db := database.ConnectDatabase()
 	defer db.Close()
 	jsonFile, err := os.Open(fmt.Sprintf("json/%s.json", jpn))
@@ -23,7 +23,7 @@ func InsertJson(jpn string) error {
 
 	byteValue, _ := io.ReadAll(jsonFile)
 
-	var data []dict.Word
+	var data []utils.Word
 
 	if err := json.Unmarshal(byteValue, &data); err != nil {
 		return err
@@ -38,4 +38,14 @@ func InsertJson(jpn string) error {
 	}
 	return nil
 
+}
+
+func InsertProfile() error {
+	db := database.ConnectDatabase()
+	defer db.Close()
+	jsonFile, err := os.Open(fmt.Sprintf("json/%s.json", jpn))
+
+	if err != nil {
+		return err
+	}
 }

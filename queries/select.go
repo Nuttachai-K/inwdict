@@ -3,11 +3,11 @@ package queries
 import (
 	"fmt"
 	"inwdic/database"
-	"inwdic/dict"
+	"inwdic/utils"
 	"strconv"
 )
 
-func SelectWord(vocab string) ([]dict.Word, error) {
+func SelectWord(vocab string) ([]utils.Word, error) {
 	db := database.ConnectDatabase()
 	defer db.Close()
 	selectWord := fmt.Sprintf(`SELECT * FROM dict WHERE vocab = '%s' or hiragana = '%s' ;`, vocab, vocab)
@@ -16,10 +16,10 @@ func SelectWord(vocab string) ([]dict.Word, error) {
 		fmt.Println(err)
 	}
 
-	var words []dict.Word
+	var words []utils.Word
 
 	for rows.Next() {
-		var word dict.Word
+		var word utils.Word
 		var ID int
 		if err := rows.Scan(&ID, &word.Vocab, &word.Hiragana,
 			&word.Type, &word.Meaning, &word.Jlpt); err != nil {
@@ -34,7 +34,7 @@ func SelectWord(vocab string) ([]dict.Word, error) {
 	return words, nil
 }
 
-func SelectWordList(jlpt string, rowString string) ([]dict.Word, error) {
+func SelectWordList(jlpt string, rowString string) ([]utils.Word, error) {
 	db := database.ConnectDatabase()
 	defer db.Close()
 	row, err := strconv.Atoi(rowString)
@@ -48,10 +48,10 @@ func SelectWordList(jlpt string, rowString string) ([]dict.Word, error) {
 		return nil, err
 	}
 
-	var words []dict.Word
+	var words []utils.Word
 
 	for rows.Next() {
-		var word dict.Word
+		var word utils.Word
 		var ID int
 		if err := rows.Scan(&ID, &word.Vocab, &word.Hiragana,
 			&word.Type, &word.Meaning, &word.Jlpt); err != nil {

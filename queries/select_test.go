@@ -2,19 +2,19 @@ package queries
 
 import (
 	"errors"
-	"inwdic/dict"
+	"inwdic/utils"
 	"reflect"
 	"testing"
 )
 
 type selectWord struct {
 	vocab   string
-	result1 []dict.Word
+	result1 []utils.Word
 	result2 error
 }
 
 var testSelects = []selectWord{
-	{"きます", []dict.Word{{
+	{"きます", []utils.Word{{
 		Vocab:    "きます",
 		Hiragana: "きます",
 		Type:     "คำกริยา (Verb 3)",
@@ -27,7 +27,7 @@ var testSelects = []selectWord{
 		Meaning:  "ใส่ (เสื้อผ้า)",
 		Jlpt:     "N5",
 	}}, nil},
-	{"します", []dict.Word{{
+	{"します", []utils.Word{{
 		Vocab:    "します",
 		Hiragana: "します",
 		Type:     "คำกริยา (Verb 3)",
@@ -35,7 +35,7 @@ var testSelects = []selectWord{
 		Jlpt:     "N5",
 	},
 	}, nil},
-	{"とります", []dict.Word{{
+	{"とります", []utils.Word{{
 		Vocab:    "撮ります",
 		Hiragana: "とります",
 		Type:     "คำกริยา (Verb 1)",
