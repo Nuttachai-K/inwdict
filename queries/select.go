@@ -65,3 +65,25 @@ func SelectWordList(jlpt string, rowString string) ([]utils.Word, error) {
 
 	return words, nil
 }
+
+func SelectUser(name, password string) (utils.User, string, error) {
+	db := database.ConnectDatabase()
+	defer db.Close()
+	selectUser := fmt.Sprintf(`SELECT name,password,image FROM users WHERE name = '%s' and password = '%s';`, name, password)
+	rows, err := db.Query(selectUser)
+	if err != nil {
+		return utils.User{}, "", err
+	}
+	var user utils.User
+	var image string
+	for rows.Next() {
+		if err := rows.Scan(&user.Name, &user.Password, &image); err != nil {
+			return utils.User{}, "", err
+		}
+	}
+	if err = rows.Err(); err != nil {
+		return utils.User{}, "", err
+	}
+	fmt.Printf("%v \n %s", user, image)
+	return user, image, nil
+}

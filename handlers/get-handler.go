@@ -45,3 +45,14 @@ func GetWordList(ctx *gin.Context) {
 	}
 	ctx.JSON(http.StatusOK, wordLists)
 }
+
+func GetUser(ctx *gin.Context) {
+	user, image, err := queries.SelectUser(ctx.Query("name"), ctx.Query("password"))
+	if err != nil {
+		fmt.Println(err)
+	}
+	ctx.JSON(http.StatusOK, gin.H{
+		"user":  user,
+		"image": image,
+	})
+}

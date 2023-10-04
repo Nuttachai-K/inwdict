@@ -1,8 +1,6 @@
 package utils
 
 type User struct {
-	UserID     int64
-	Name       string
-	Password   string
-	ProfilePic string
+	Name     string `json:"name"`
+	Password string `json:"password"`
 }

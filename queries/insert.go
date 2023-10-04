@@ -40,12 +40,13 @@ func InsertJsonWordlist(jpn string) error {
 
 }
 
-func InsertProfile() error {
+func InsertProfile(user utils.User, image string) error {
 	db := database.ConnectDatabase()
 	defer db.Close()
-	jsonFile, err := os.Open(fmt.Sprintf("json/%s.json", jpn))
-
+	insertJson := fmt.Sprintf(`INSERT INTO users (name,password,image) VALUES ('%s','%s','%s')`, user.Name, user.Password, image)
+	_, err := db.Exec(insertJson)
 	if err != nil {
 		return err
 	}
+	return nil
 }
