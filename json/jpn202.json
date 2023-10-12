@@ -2,7 +2,7 @@
     {
         "vocab": "会います",
         "hiragana": "あいます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "พบ, เจอ",
         "jlpt": "N5"
     },
@@ -16,7 +16,7 @@
     {
         "vocab": "泳ぎます",
         "hiragana": "およぎます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "ว่ายน้ำ",
         "jlpt": "N5"
     },
@@ -30,7 +30,7 @@
     {
         "vocab": "気をつけます",
         "hiragana": "きをつけます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 2)",
         "meaning": "ระวัง",
         "jlpt": "N5"
     },
@@ -44,9 +44,9 @@
     {
         "vocab": "写します",
         "hiragana": "うつします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "ลอก (การบ้าน)",
-        "jlpt": "N5"
+        "jlpt": "N3"
     },
     {
         "vocab": "実家",
@@ -86,7 +86,7 @@
     {
         "vocab": "出します",
         "hiragana": "だします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "ส่ง(การบ้าน, งาน)",
         "jlpt": "N5"
     },
@@ -100,7 +100,7 @@
     {
         "vocab": "乗ります",
         "hiragana": "のります",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "ขี่, ขึ้น (ยานพาหนะ)",
         "jlpt": "N5"
     },
@@ -109,14 +109,14 @@
         "hiragana": "ひさしぶり",
         "type": "วลี (Phrase)",
         "meaning": "ไม่ได้เจอกันนาน",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "びっくりします",
         "hiragana": "びっくりします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "ตกใจ",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "町",
@@ -142,7 +142,7 @@
     {
         "vocab": "忘れます",
         "hiragana": "わすれます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 2)",
         "meaning": "ลืม",
         "jlpt": "N5"
     },
@@ -170,37 +170,37 @@
     {
         "vocab": "いらっしゃいます",
         "hiragana": "いらっしゃいます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "ไป, มา, อยู่ (รูปยกย่อง)",
         "jlpt": "N5"
     },
     {
         "vocab": "売ります",
         "hiragana": "うります",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "ขาย",
         "jlpt": "N5"
     },
     {
         "vocab": "お願いします",
         "hiragana": "おねがいします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "รบกวน, ขอความกรุณา",
         "jlpt": "N5"
     },
     {
         "vocab": "返します",
         "hiragana": "かえします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "คืน",
         "jlpt": "N5"
     },
     {
         "vocab": "（に）確認します",
         "hiragana": "かくにんします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "ยืนยัน",
-        "jlpt": "N5"
+        "jlpt": "N3"
     },
     {
         "vocab": "歌詞",
@@ -212,7 +212,7 @@
     {
         "vocab": "貸します",
         "hiragana": "かします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "ให้ยืม",
         "jlpt": "N5"
     },
@@ -226,14 +226,14 @@
     {
         "vocab": "考えます",
         "hiragana": "かんがえます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 2)",
         "meaning": "คิด",
         "jlpt": "N5"
     },
     {
         "vocab": "（に）聞きます",
         "hiragana": "ききます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "ถาม (คน)",
         "jlpt": "N5"
     },
@@ -247,7 +247,7 @@
     {
         "vocab": "消します",
         "hiragana": "けします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "ลบ,ดับ(ไฟ),ปิด(ไฟ)",
         "jlpt": "N5"
     },
@@ -261,14 +261,14 @@
     {
         "vocab": "サインします",
         "hiragana": "さいんします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "เซ็นชื่อ",
         "jlpt": "N5"
     },
     {
         "vocab": "（に）参加します",
         "hiragana": "さんかします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "เข้าร่วม (งาน)",
         "jlpt": "N5"
     },
@@ -284,7 +284,7 @@
         "hiragana": "じゅんび",
         "type": "คำนาม (Noun)",
         "meaning": "การเตรียม",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "スクリプト",
@@ -310,7 +310,7 @@
     {
         "vocab": "相談します",
         "hiragana": "そうだんします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "ปรึกษา",
         "jlpt": "N5"
     },
@@ -338,14 +338,14 @@
     {
         "vocab": "手伝います",
         "hiragana": "てつだいます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "ช่วยเหลือ",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "（に）出ます",
         "hiragana": "でます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 2)",
         "meaning": "เข้าร่วม (งาน)",
         "jlpt": "N5"
     },
@@ -366,16 +366,16 @@
     {
         "vocab": "発表します",
         "hiragana": "はっぴょうします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "นำเสนอ",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "文法",
         "hiragana": "ぶんぽう",
         "type": "คำนาม (Noun)",
         "meaning": "ไวยากรณ์",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "ポップコーン",
@@ -387,14 +387,14 @@
     {
         "vocab": "翻訳します",
         "hiragana": "ほんやくします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "แปล",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "見せます",
         "hiragana": "みせます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 2)",
         "meaning": "ให้ดู",
         "jlpt": "N5"
     },
@@ -408,14 +408,14 @@
     {
         "vocab": "予約します",
         "hiragana": "よやくします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "จอง",
         "jlpt": "N5"
     },
     {
         "vocab": "練習します",
         "hiragana": "れんしゅうします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "ฝึกฝน",
         "jlpt": "N5"
     },
@@ -457,7 +457,7 @@
     {
         "vocab": "お参りします",
         "hiragana": "おまいりします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "ไหว้พระ",
         "jlpt": "N5"
     },
@@ -473,7 +473,7 @@
         "hiragana": "おみまい",
         "type": "คำนาม (Noun)",
         "meaning": "การเยี่ยมไข้, การเยี่ยมผู้ป่วย",
-        "jlpt": "N5"
+        "jlpt": "N3"
     },
     {
         "vocab": "女",
@@ -485,14 +485,14 @@
     {
         "vocab": "（めがねを）かけます",
         "hiragana": "かけます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 2)",
         "meaning": "สวม, ใส่ (แว่นตา)",
         "jlpt": "N5"
     },
     {
         "vocab": "（ぼうしを）かぶります",
         "hiragana": "かぶります",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "สวม, ใส่ (หมวก)",
         "jlpt": "N5"
     },
@@ -513,7 +513,7 @@
     {
         "vocab": "着ます",
         "hiragana": "きます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 2)",
         "meaning": "สวม, ใส่ (เสื้อผ้าท่อนบน)",
         "jlpt": "N5"
     },
@@ -604,7 +604,7 @@
     {
         "vocab": "します",
         "hiragana": "します",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "สวม, ใส่ (เครื่องประดับ)",
         "jlpt": "N5"
     },
@@ -632,7 +632,7 @@
     {
         "vocab": "取ります",
         "hiragana": "とります",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "หยิบ, เอา",
         "jlpt": "N5"
     },
@@ -646,7 +646,7 @@
     {
         "vocab": "はきます",
         "hiragana": "はきます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "สวม, ใส่ (กางเกง, กระโปรง, รองเท้า)",
         "jlpt": "N5"
     },
@@ -674,7 +674,7 @@
     {
         "vocab": "見送ります",
         "hiragana": "みおくります",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "ไปส่ง(คนที่จะออกเดินทาง)",
         "jlpt": "N5"
     },
@@ -688,9 +688,9 @@
     {
         "vocab": "迎えます",
         "hiragana": "むかえます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 2)",
         "meaning": "รับ(คน)",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "めがね",
@@ -704,7 +704,7 @@
         "hiragana": "ゆうえんち",
         "type": "คำนาม (Noun)",
         "meaning": "สวนสนุก",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "指輪",
@@ -732,7 +732,7 @@
         "hiragana": "いじょう",
         "type": "คำนาม (Noun)",
         "meaning": "มากกว่า, เกินกว่า",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "インターンシップ",
@@ -744,9 +744,9 @@
     {
         "vocab": "選びます",
         "hiragana": "えらびます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "เลือก",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "温泉",
@@ -786,7 +786,7 @@
     {
         "vocab": "決めます",
         "hiragana": "きめます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 2)",
         "meaning": "ตัดสินใจ",
         "jlpt": "N5"
     },
@@ -823,7 +823,7 @@
         "hiragana": "けんがく",
         "type": "คำนาม (Noun)",
         "meaning": "การทัศนศึกษา, การไปดูงาน",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "コース",
@@ -837,14 +837,14 @@
         "hiragana": "こうりゅうかい",
         "type": "คำนาม (Noun)",
         "meaning": "งานเลี้ยงแลกเปลี่ยน",
-        "jlpt": "N5"
+        "jlpt": "N3"
     },
     {
         "vocab": "交流します",
         "hiragana": "こうりゅうします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "แลกเปลี่ยน (วัฒนธรรม)",
-        "jlpt": "N5"
+        "jlpt": "N3"
     },
     {
         "vocab": "コンビニ",
@@ -886,7 +886,7 @@
         "hiragana": "しぜん",
         "type": "คำนาม (Noun)",
         "meaning": "ธรรมชาติ",
-        "jlpt": "N5"
+        "jlpt": "N3"
     },
     {
         "vocab": "自由",
@@ -900,14 +900,14 @@
         "hiragana": "じゅぎょうりょう",
         "type": "คำนาม (Noun)",
         "meaning": "ค่าเรียน ",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "奨学金",
         "hiragana": "しょうがくきん",
         "type": "คำนาม (Noun)",
         "meaning": "ทุนการศึกษา",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "上級",
@@ -928,14 +928,14 @@
         "hiragana": "じんこう",
         "type": "คำนาม (Noun)",
         "meaning": "ประชากร",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "生活費",
         "hiragana": "せいかつひ",
         "type": "คำนาม (Noun)",
         "meaning": "ค่าครองชีพ",
-        "jlpt": "N5"
+        "jlpt": "N3"
     },
     {
         "vocab": "体験",
@@ -984,7 +984,7 @@
         "hiragana": "どっかい",
         "type": "คำนาม (Noun)",
         "meaning": "การอ่านเพื่อความเข้าใจ",
-        "jlpt": "N5"
+        "jlpt": "N2"
     },
     {
         "vocab": "飲み会",
@@ -996,7 +996,7 @@
     {
         "vocab": "働きます",
         "hiragana": "はたらきます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "ทำงาน",
         "jlpt": "N5"
     },
@@ -1026,14 +1026,14 @@
         "hiragana": "ぶんか",
         "type": "คำนาม (Noun)",
         "meaning": "วัฒนธรรม",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "保険",
         "hiragana": "ほけん",
         "type": "คำนาม (Noun)",
         "meaning": "ประกัน",
-        "jlpt": "N5"
+        "jlpt": "N3"
     },
     {
         "vocab": "約...",
@@ -1047,7 +1047,7 @@
         "hiragana": "やちん",
         "type": "คำนาม (Noun)",
         "meaning": "ค่าเช่าบ้าน",
-        "jlpt": "N5"
+        "jlpt": "N3"
     },
     {
         "vocab": "寮",
@@ -1059,7 +1059,7 @@
     {
         "vocab": "受けます",
         "hiragana": "うけます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 2)",
         "meaning": "เข้าสอบ",
         "jlpt": "N5"
     },
@@ -1087,9 +1087,9 @@
     {
         "vocab": "頑張ります",
         "hiragana": "がんばります",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "พยายาม",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "経営学",
@@ -1115,9 +1115,9 @@
     {
         "vocab": "合格します",
         "hiragana": "ごうかくします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "สอบผ่าน",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "国際経営",
@@ -1145,12 +1145,12 @@
         "hiragana": "じゅぎょうりょう",
         "type": "คำนาม (Noun)",
         "meaning": "ค่าเล่าเรียน",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "出家します",
         "hiragana": "しゅっけします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "บวช",
         "jlpt": "N5"
     },
@@ -1178,9 +1178,9 @@
     {
         "vocab": "貯金します",
         "hiragana": "ちょきんします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "เก็บเงิน",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "...について",
@@ -1213,7 +1213,7 @@
     {
         "vocab": "登ります",
         "hiragana": "のぼります",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "ปีน",
         "jlpt": "N5"
     },
@@ -1234,7 +1234,7 @@
     {
         "vocab": "払います",
         "hiragana": "はらいます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "จ่าย (เงิน)",
         "jlpt": "N5"
     },
@@ -1255,7 +1255,7 @@
     {
         "vocab": "編集します",
         "hiragana": "へんしゅうします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "ตัดต่อ",
         "jlpt": "N5"
     },
@@ -1264,14 +1264,14 @@
         "hiragana": "めんせつ",
         "type": "คำนาม (Noun)",
         "meaning": "การสัมภาษณ์",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "目的",
         "hiragana": "もくてき",
         "type": "คำนาม (Noun)",
         "meaning": "จุดประสงค์",
-        "jlpt": "N5"
+        "jlpt": "N3"
     },
     {
         "vocab": "もっと",
@@ -1290,7 +1290,7 @@
     {
         "vocab": "予約します",
         "hiragana": "よやくします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "จอง",
         "jlpt": "N5"
     },
@@ -1313,7 +1313,7 @@
         "hiragana": "あいさつ",
         "type": "คำนาม (Noun)",
         "meaning": "การทักทาย",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "アクセサリー",
@@ -1339,7 +1339,7 @@
     {
         "vocab": "おじぎします",
         "hiragana": "おじぎします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "โค้งคำนับ",
         "jlpt": "N5"
     },
@@ -1360,23 +1360,23 @@
     {
         "vocab": "重ねます",
         "hiragana": "かさねます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 2)",
         "meaning": "เอาซ้อนกัน",
         "jlpt": "N5"
     },
     {
         "vocab": "緊張します",
         "hiragana": "きんちょうします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "ตื่นเต้น, ประหม่า",
-        "jlpt": "N5"
+        "jlpt": "N3"
     },
     {
         "vocab": "経験",
         "hiragana": "けいけん",
         "type": "คำนาม (Noun)",
         "meaning": "ประสบการณ์",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "最後",
@@ -1388,9 +1388,9 @@
     {
         "vocab": "修理します",
         "hiragana": "しゅうりします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "ซ่อมแซม",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "チェーン",
@@ -1409,16 +1409,16 @@
     {
         "vocab": "注文します",
         "hiragana": "ちゅうもんします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "สั่ง, สั่งซื้อ",
-        "jlpt": "N5"
+        "jlpt": "N3"
     },
     {
         "vocab": "丁寧な",
         "hiragana": "ていねいな",
         "type": "คำคุณศัพท์\n(な-Adjective)",
         "meaning": "สุภาพ",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "\n_度（°）",
@@ -1430,7 +1430,7 @@
     {
         "vocab": "飛びます",
         "hiragana": "とびます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "บิน",
         "jlpt": "N5"
     },
@@ -1444,21 +1444,21 @@
     {
         "vocab": "ノックします",
         "hiragana": "のっくします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "เคาะ (ประตู)",
         "jlpt": "N5"
     },
     {
         "vocab": "始めます",
         "hiragana": "はじめます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 2)",
         "meaning": "เริ่ม",
         "jlpt": "N5"
     },
     {
         "vocab": "外します",
         "hiragana": "はずします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "ถอด (เครื่องประดับ)",
         "jlpt": "N5"
     },
@@ -1467,7 +1467,7 @@
         "hiragana": "はでな",
         "type": "คำคุณศัพท์\n(な-Adjective)",
         "meaning": "ฉูดฉาด",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "ひざ",
@@ -1493,7 +1493,7 @@
     {
         "vocab": "もたれます",
         "hiragana": "もたれます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 2)",
         "meaning": "พิง",
         "jlpt": "N5"
     },
@@ -1514,7 +1514,7 @@
     {
         "vocab": "遭います",
         "hiragana": "あいます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "เจอ, ประสบ (อุบัติเหตุ)",
         "jlpt": "N5"
     },
@@ -1523,7 +1523,7 @@
         "hiragana": "あんぜんな",
         "type": "คำคุณศัพท์\n(な-Adjective)",
         "meaning": "ปลอดภัย",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "うるさい",
@@ -1544,12 +1544,12 @@
         "hiragana": "おおやさん",
         "type": "คำนาม (Noun)",
         "meaning": "เจ้าของ(หอพัก)",
-        "jlpt": "N5"
+        "jlpt": "N3"
     },
     {
         "vocab": "怒ります",
         "hiragana": "おこります",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "โกรธ",
         "jlpt": "N5"
     },
@@ -1563,21 +1563,21 @@
     {
         "vocab": "落とします",
         "hiragana": "おとします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "ทำตก",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "お巡りさん",
         "hiragana": "おまわりさん",
         "type": "คำนาม (Noun)",
         "meaning": "ตำรวจ ",
-        "jlpt": "N5"
+        "jlpt": "N3"
     },
     {
         "vocab": "かけます",
         "hiragana": "かけます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 2)",
         "meaning": "สาด(น้ำ)",
         "jlpt": "N5"
     },
@@ -1593,7 +1593,7 @@
         "hiragana": "かならず",
         "type": "คำวิเศษณ์ (Adverb)",
         "meaning": "ให้ได้, ต้อง",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "管理人",
@@ -1626,7 +1626,7 @@
     {
         "vocab": "ケンカします",
         "hiragana": "けんかします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "ทะเลาะ",
         "jlpt": "N5"
     },
@@ -1647,7 +1647,7 @@
     {
         "vocab": "困ります",
         "hiragana": "こまります",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "เดือดร้อน",
         "jlpt": "N5"
     },
@@ -1675,7 +1675,7 @@
     {
         "vocab": "捨てます",
         "hiragana": "すてます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 2)",
         "meaning": "ทิ้ง",
         "jlpt": "N5"
     },
@@ -1724,42 +1724,42 @@
     {
         "vocab": "失くします",
         "hiragana": "なくします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "ทำหาย",
         "jlpt": "N5"
     },
     {
         "vocab": "盗みます",
         "hiragana": "ぬすみます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "ขโมย",
         "jlpt": "N5"
     },
     {
         "vocab": "ひきます",
         "hiragana": "ひきます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "(รถ)เหยียบ, ทับ",
         "jlpt": "N5"
     },
     {
         "vocab": "ぶつかります",
         "hiragana": "ぶつかります",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "ชน",
         "jlpt": "N5"
     },
     {
         "vocab": "踏みます",
         "hiragana": "ふみます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "เหยียบ",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "迷います",
         "hiragana": "まよいます",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "หลง(ทาง)",
         "jlpt": "N5"
     },
@@ -1780,14 +1780,14 @@
     {
         "vocab": "汚します",
         "hiragana": "よごします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 1)",
         "meaning": "ทำเลอะ ทำเปื้อน",
-        "jlpt": "N5"
+        "jlpt": "N4"
     },
     {
         "vocab": "ロックします",
         "hiragana": "ろっくします",
-        "type": "คำกริยา (Verb)",
+        "type": "คำกริยา (Verb 3)",
         "meaning": "ล็อก(ระบบโทรศัพท์)",
         "jlpt": "N5"
     }
