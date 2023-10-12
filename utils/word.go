@@ -7,6 +7,7 @@ import (
 )
 
 type Word struct {
+	Id       int    `json:"id"`
 	Vocab    string `json:"vocab"`
 	Hiragana string `json:"hiragana"`
 	Type     string `json:"type"`
@@ -31,9 +32,9 @@ func wordListToJson(sliceWordList *[]Word, jsonFile string) {
 // ToDictForm change hiragana to dict form according to verb type
 func (w Word) ToDictForm() string {
 	var dict = ""
-	fmt.Printf("hiragana : %s len : %v\n", w.Vocab, len(w.Vocab))
+	// fmt.Printf("hiragana : %s len : %v\n", w.Vocab, len(w.Vocab))
 	last3char := w.Vocab[len(w.Vocab)-9:]
-	fmt.Printf("Last 3 Character : %s\n", last3char)
+	// fmt.Printf("Last 3 Character : %s\n", last3char)
 	if w.Type == "คำกริยา (Verb 1)" {
 
 		switch last3char {
@@ -80,20 +81,20 @@ func (w Word) ToDictForm() string {
 			dict = fmt.Sprintf("%sくる", w.Vocab[:len(w.Vocab)-9])
 		}
 	}
-	fmt.Printf("jishokei : %s\n\n", dict)
+	// fmt.Printf("jishokei : %s\n\n", dict)
 	return dict
 }
 
 // ToTaForm change hiragana to ta form according to verb type
 func (w Word) ToTaForm() string {
 	var ta = ""
-	fmt.Printf("hiragana : %s len : %v Is ikimasu : %v \n", w.Vocab, len(w.Vocab), w.Hiragana == "いきます")
+	// fmt.Printf("hiragana : %s len : %v Is ikimasu : %v \n", w.Vocab, len(w.Vocab), w.Hiragana == "いきます")
 	if w.Type == "คำกริยา (Verb 1)" && w.Vocab == "いきます" {
 		ta = "いった"
 		return ta
 	}
 	last3char := w.Vocab[len(w.Vocab)-9:]
-	fmt.Printf("Last 3 Character : %s\n", last3char)
+	// fmt.Printf("Last 3 Character : %s\n", last3char)
 	if w.Type == "คำกริยา (Verb 1)" {
 
 		switch last3char {
@@ -140,20 +141,20 @@ func (w Word) ToTaForm() string {
 			ta = fmt.Sprintf("%sきた", w.Vocab[:len(w.Vocab)-9])
 		}
 	}
-	fmt.Printf("ta form : %s\n\n", ta)
+	// fmt.Printf("ta form : %s\n\n", ta)
 	return ta
 }
 
 // ToTeForm change hiragana to te form according to verb type
 func (w Word) ToTeForm() string {
 	var te = ""
-	fmt.Printf("hiragana : %s len : %v word type : %s\n ", w.Vocab, len(w.Vocab), w.Type)
+	// fmt.Printf("hiragana : %s len : %v word type : %s\n ", w.Vocab, len(w.Vocab), w.Type)
 	if w.Type == "คำกริยา (Verb 1)" && w.Vocab == "いきます" {
 		te = "いって"
 		return te
 	}
 	last3char := w.Vocab[len(w.Vocab)-9:]
-	fmt.Printf("Last 3 Character : %s\n", last3char)
+	// fmt.Printf("Last 3 Character : %s\n", last3char)
 	if w.Type == "คำกริยา (Verb 1)" {
 
 		switch last3char {
@@ -200,20 +201,20 @@ func (w Word) ToTeForm() string {
 			te = fmt.Sprintf("%sきて", w.Vocab[:len(w.Vocab)-9])
 		}
 	}
-	fmt.Printf("te form : %s\n\n", te)
+	// fmt.Printf("te form : %s\n\n", te)
 	return te
 }
 
 // ToNaiForm change hiragana to nai form according to verb type
 func (w Word) ToNaiForm() string {
 	var nai = ""
-	fmt.Printf("hiragana : %s len : %v word type : %s\n ", w.Vocab, len(w.Vocab), w.Type)
+	// fmt.Printf("hiragana : %s len : %v word type : %s\n ", w.Vocab, len(w.Vocab), w.Type)
 	if w.Type == "คำกริยา (Verb 1)" && w.Vocab == "あります" {
 		nai = "ない"
 		return nai
 	}
 	last3char := w.Vocab[len(w.Vocab)-9:]
-	fmt.Printf("Last 3 Character : %s\n", last3char)
+	// fmt.Printf("Last 3 Character : %s\n", last3char)
 	if w.Type == "คำกริยา (Verb 1)" {
 
 		switch last3char {
@@ -260,6 +261,6 @@ func (w Word) ToNaiForm() string {
 			nai = fmt.Sprintf("%sこない", w.Vocab[:len(w.Vocab)-9])
 		}
 	}
-	fmt.Printf("Nai form : %s\n\n", nai)
+	// fmt.Printf("Nai form : %s\n\n", nai)
 	return nai
 }

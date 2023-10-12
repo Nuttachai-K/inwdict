@@ -56,3 +56,19 @@ func GetUser(ctx *gin.Context) {
 		"image": image,
 	})
 }
+
+func GetVocabList(ctx *gin.Context) {
+	vocabLists, err := queries.SelectVocabList(ctx.Query("user_id"), ctx.Query("name"))
+	if err != nil {
+		fmt.Println(err)
+	}
+	ctx.JSON(http.StatusOK, vocabLists)
+}
+
+func GetVocabDetails(ctx *gin.Context) {
+	vocabDetails, err := queries.SelectVocabDetails(ctx.Query("vocablist_id"))
+	if err != nil {
+		fmt.Println(err)
+	}
+	ctx.JSON(http.StatusOK, vocabDetails)
+}
