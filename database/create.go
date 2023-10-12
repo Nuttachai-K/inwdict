@@ -17,7 +17,7 @@ func CreateDatabase(db *sql.DB) {
 func CreateDictTable() {
 	db := ConnectDatabase()
 	defer db.Close()
-	createTable := `CREATE TABLE IF NOT EXISTS dict (
+	createTable := `CREATE TABLE IF NOT EXISTS dicts (
 		id SERIAL PRIMARY KEY,
 		vocab VARCHAR(50),
 		hiragana VARCHAR(50),
