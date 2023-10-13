@@ -24,28 +24,30 @@ func PostUser(ctx *gin.Context) {
 
 	file, _, err := ctx.Request.FormFile("image")
 	if err != nil {
-		ctx.JSON(http.StatusBadRequest, gin.H{"error": "Image file not provided"})
+		queries.InsertProfile(user, "")
+		// Return a success response without image
+		ctx.JSON(http.StatusOK, gin.H{"message": "User uploaded successfully without picture"})
 		return
+	} else {
+		// Read the image data
+		imageData, err := io.ReadAll(file)
+		if err != nil {
+			ctx.JSON(http.StatusInternalServerError, gin.H{"error": "Error reading image data"})
+			return
+		}
+
+		// Encode the image as Base64
+		encodedImage := base64.StdEncoding.EncodeToString(imageData)
+
+		fmt.Printf("%v \n", user)
+
+		// Process the user data and save it to a database
+		queries.InsertProfile(user, encodedImage)
+		ctx.JSON(http.StatusOK, gin.H{"message": "User uploaded successfully with picture"})
+
 	}
 	defer file.Close()
 
-	// Read the image data
-	imageData, err := io.ReadAll(file)
-	if err != nil {
-		ctx.JSON(http.StatusInternalServerError, gin.H{"error": "Error reading image data"})
-		return
-	}
-
-	// Encode the image as Base64
-	encodedImage := base64.StdEncoding.EncodeToString(imageData)
-
-	fmt.Printf("%v \n", user)
-
-	// Process the user data and save it to a database
-	queries.InsertProfile(user, encodedImage)
-
-	// Return a success response
-	ctx.JSON(http.StatusOK, gin.H{"message": "Image uploaded successfully"})
 }
 
 func PostVocabList(ctx *gin.Context) {

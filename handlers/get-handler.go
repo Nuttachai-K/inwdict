@@ -57,6 +57,10 @@ func GetUser(ctx *gin.Context) {
 	})
 }
 
+func GetUserName(ctx *gin.Context) {
+
+}
+
 func GetVocabList(ctx *gin.Context) {
 	vocabLists, err := queries.SelectVocabList(ctx.Query("user_id"), ctx.Query("name"))
 	if err != nil {

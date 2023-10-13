@@ -27,6 +27,7 @@ func main() {
 	router.GET("/", handlers.GetWord)
 	router.GET("/wordlist", handlers.GetWordList)
 	router.GET("/user", handlers.GetUser)
+	router.GET("/username", handlers.GetUserName)
 	router.GET("/vocablist", handlers.GetVocabList)
 	router.GET("/vocabdetails", handlers.GetVocabDetails)
 	router.POST("/user", handlers.PostUser)
