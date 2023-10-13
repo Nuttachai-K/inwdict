@@ -86,24 +86,26 @@ func SelectUser(name, password string) (utils.User, string, error) {
 	return user, image, nil
 }
 
-func SelectVocabList(user_id string, name string) (utils.VocabList, error) {
+func SelectVocabLists(user_id string) ([]utils.VocabList, error) {
 	db := database.ConnectDatabase()
 	defer db.Close()
-	selectVocabListId := fmt.Sprintf(`SELECT * FROM vocablists WHERE user_id = %s and name = '%s';`, user_id, name)
+	selectVocabListId := fmt.Sprintf(`SELECT * FROM vocablists WHERE user_id = %s;`, user_id)
 	rows, err := db.Query(selectVocabListId)
 	if err != nil {
-		return utils.VocabList{}, err
+		return []utils.VocabList{}, err
 	}
-	var vcl utils.VocabList
+	var vcls []utils.VocabList
 	for rows.Next() {
+		var vcl utils.VocabList
 		if err := rows.Scan(&vcl.Id, &vcl.User_id, &vcl.Name); err != nil {
-			return utils.VocabList{}, err
+			return []utils.VocabList{}, err
 		}
+		vcls = append(vcls, vcl)
 	}
 	if err = rows.Err(); err != nil {
-		return utils.VocabList{}, err
+		return []utils.VocabList{}, err
 	}
-	return vcl, nil
+	return vcls, nil
 
 }
 
