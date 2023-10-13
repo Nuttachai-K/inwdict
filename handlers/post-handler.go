@@ -7,6 +7,7 @@ import (
 	"inwdic/utils"
 	"io"
 	"net/http"
+	"strconv"
 
 	"github.com/gin-gonic/gin"
 )
@@ -45,4 +46,38 @@ func PostUser(ctx *gin.Context) {
 
 	// Return a success response
 	ctx.JSON(http.StatusOK, gin.H{"message": "Image uploaded successfully"})
+}
+
+func PostVocabList(ctx *gin.Context) {
+
+	var vcl utils.VocabList
+	var err error
+	vcl.User_id, err = strconv.Atoi(ctx.Request.FormValue("user_id"))
+	if err != nil {
+		ctx.JSON(http.StatusBadRequest, gin.H{"error": "user id is not match"})
+		return
+	}
+	vcl.Name = ctx.Request.FormValue("name")
+
+	queries.InsertVocabList(vcl)
+
+	ctx.JSON(http.StatusOK, gin.H{"message": "VocabList uploaded successfully"})
+}
+
+func PostVocabDetail(ctx *gin.Context) {
+	var word_id, vocabList_id int
+	var err error
+	word_id, err = strconv.Atoi(ctx.Request.FormValue("word_id"))
+	if err != nil {
+		ctx.JSON(http.StatusBadRequest, gin.H{"error": "word id is not match"})
+		return
+	}
+	vocabList_id, err = strconv.Atoi(ctx.Request.FormValue("vocablist_id"))
+	if err != nil {
+		ctx.JSON(http.StatusBadRequest, gin.H{"error": "vocablist id is not match"})
+		return
+	}
+
+	queries.InsertVocabDetail(word_id, vocabList_id)
+	ctx.JSON(http.StatusOK, gin.H{"message": "VocabDetail uploaded successfully"})
 }

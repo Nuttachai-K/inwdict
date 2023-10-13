@@ -30,7 +30,7 @@ func InsertJsonWordlist(jpn string) error {
 	}
 
 	for _, word := range data {
-		insertJson := fmt.Sprintf(`INSERT INTO dicts (vocab,hiragana,type,meaning,jlpt) VALUES ('%s','%s','%s','%s','%s')`, word.Vocab, word.Hiragana, word.Type, word.Meaning, word.Jlpt)
+		insertJson := fmt.Sprintf(`INSERT INTO words (vocab,hiragana,type,meaning,jlpt) VALUES ('%s','%s','%s','%s','%s')`, word.Vocab, word.Hiragana, word.Type, word.Meaning, word.Jlpt)
 		_, err = db.Exec(insertJson)
 		if err != nil {
 			return err
@@ -68,6 +68,29 @@ func InsertProfile(user utils.User, image string) error {
 	db := database.ConnectDatabase()
 	defer db.Close()
 	insertJson := fmt.Sprintf(`INSERT INTO users (name,password,image) VALUES ('%s','%s','%s')`, user.Name, user.Password, image)
+	_, err := db.Exec(insertJson)
+	if err != nil {
+		return err
+	}
+	return nil
+}
+
+func InsertVocabList(vcl utils.VocabList) error {
+	db := database.ConnectDatabase()
+	defer db.Close()
+	insertJson := fmt.Sprintf(`INSERT INTO vocablists (user_id,name) VALUES ('%v','%s')`, vcl.User_id, vcl.Name)
+	_, err := db.Exec(insertJson)
+	if err != nil {
+		return err
+	}
+	return nil
+}
+
+func InsertVocabDetail(word_id, vocabList_id int) error {
+	db := database.ConnectDatabase()
+	defer db.Close()
+	fmt.Println(vocabList_id, word_id)
+	insertJson := fmt.Sprintf(`INSERT INTO vocabdetails VALUES (%v,%v)`, vocabList_id, word_id)
 	_, err := db.Exec(insertJson)
 	if err != nil {
 		return err
