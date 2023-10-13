@@ -82,8 +82,27 @@ func SelectUser(name, password string) (utils.User, string, error) {
 	if err = rows.Err(); err != nil {
 		return utils.User{}, "", err
 	}
-	fmt.Printf("%v \n %s", user, image)
 	return user, image, nil
+}
+
+func SelectUserName(name string) (string, error) {
+	db := database.ConnectDatabase()
+	defer db.Close()
+	selectUser := fmt.Sprintf(`SELECT name FROM users WHERE name = '%s';`, name)
+	rows, err := db.Query(selectUser)
+	if err != nil {
+		return "", err
+	}
+	var username string
+	for rows.Next() {
+		if err := rows.Scan(&username); err != nil {
+			return "", err
+		}
+	}
+	if err = rows.Err(); err != nil {
+		return "", err
+	}
+	return username, nil
 }
 
 func SelectVocabLists(user_id string) ([]utils.VocabList, error) {

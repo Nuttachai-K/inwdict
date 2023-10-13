@@ -57,8 +57,18 @@ func GetUser(ctx *gin.Context) {
 	})
 }
 
-func GetUserName(ctx *gin.Context) {
-
+func CheckUserName(ctx *gin.Context) {
+	username, err := queries.SelectUserName(ctx.Query("name"))
+	var isUsed bool
+	if username == "" {
+		isUsed = false
+	} else {
+		isUsed = true
+	}
+	if err != nil {
+		fmt.Println(err)
+	}
+	ctx.JSON(http.StatusOK, isUsed)
 }
 
 func GetVocabList(ctx *gin.Context) {
