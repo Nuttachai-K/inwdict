@@ -23,6 +23,5 @@ func ConnectDatabase() *sql.DB {
 		fmt.Println(err)
 	}
 
-	fmt.Println("Connected!")
 	return Db
 }
